@@ -1,0 +1,2 @@
+Android is an Opensource OS built by Google designed for mobile and tablets. It was initially developed by Android Inc. and Google purchased it in 2005. Google releases the code under the Apache License in the AOSP Project (Android Open Source Project). Android has a large community of developers writing applications written primarily in a customized version of the Java programming language. In this guide you’ll learn how to start in this kind of development.
+
