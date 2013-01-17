@@ -29,37 +29,47 @@
                 android:id="@+id/what"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/what" />
+                android:onClick="click_what"
+                android:text="@string/what"
+                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/howto"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/howto" />
+                android:onClick="click_howto"
+                android:text="@string/howto"
+                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/activities"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/activities" />
+                android:text="@string/activities"
+                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/manifest"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/manifest" />
+                android:onClick="click_manifest"
+                android:text="@string/manifest"
+                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/layouts"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/layouts" />
+                android:text="@string/layouts"
+                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/values"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/values" />
+                android:onClick="click_values"
+                android:text="@string/values"
+                android:textSize="15sp" />
 
         </LinearLayout>
     </ScrollView>

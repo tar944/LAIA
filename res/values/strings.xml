@@ -3,10 +3,27 @@
 
     <string name="app_name">Laia</string>
     <string name="app_title">Learn Android in Android</string>
-    <string name="menu_settings">Settings</string>
+    
     <string name="what">1. What is Android?</string>
     <string name="howto">2. How to Develop in Android?</string>
     <string name="activities">3. How to use Activities?</string>
-    <string name="manifest">4. The important manifest</string>
+    <string name="manifest">4. What does the manifest?</string>
+    <string name="layouts">5. How to make a UI with a Layout?</string>
+    <string name="values">6. How to own a universal app?</string>
+    
+    <string name="about">About</string>
+    <string name="about_title">About LAIA</string>
+    <string name="about_text">LAIA or Learn Android in your Android is a reference app for learning the basics of Android Development. If you wanna contribute with any lesson please refer to any of the links.</string>
+    <string name="button_github">OpenSource at GitHub</string>
+    <string name="button_paypal">Support the project at PayPal</string>
+    <string name="about_donations">PayPal donations do not grant any upgrade or improve, they just support the work of the developer. App will remain free without donating.</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="title_activity_what">LAIA</string>
+    <string name="title_activity_howto">LAIA</string>
+    <string name="title_activity_activities">LAIA</string>
+    <string name="title_activity_manifest">LAIA</string>
+    <string name="title_activity_layouts">LAIA</string>
+    <string name="title_activity_values">LAIA</string>
 
 </resources>
