@@ -45,6 +45,7 @@
                 android:id="@+id/activities"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:onClick="click_activities"
                 android:text="@string/activities"
                 android:textSize="15sp" />
 
@@ -60,6 +61,7 @@
                 android:id="@+id/layouts"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:onClick="click_layouts"
                 android:text="@string/layouts"
                 android:textSize="15sp" />
 
