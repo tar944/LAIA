@@ -4,5 +4,9 @@
     <string name="app_name">Laia</string>
     <string name="app_title">Learn Android in Android</string>
     <string name="menu_settings">Settings</string>
+    <string name="what">1. What is Android?</string>
+    <string name="howto">2. How to Develop in Android?</string>
+    <string name="activities">3. How to use Activities?</string>
+    <string name="manifest">4. The important manifest</string>
 
 </resources>

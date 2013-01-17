@@ -25,11 +25,41 @@
                 android:text="@string/app_title"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
-            <ListView
-                android:id="@+id/listView1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-            </ListView>
+            <Button
+                android:id="@+id/what"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/what" />
+
+            <Button
+                android:id="@+id/howto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/howto" />
+
+            <Button
+                android:id="@+id/activities"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/activities" />
+
+            <Button
+                android:id="@+id/manifest"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/manifest" />
+
+            <Button
+                android:id="@+id/layouts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/layouts" />
+
+            <Button
+                android:id="@+id/values"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/values" />
 
         </LinearLayout>
     </ScrollView>
