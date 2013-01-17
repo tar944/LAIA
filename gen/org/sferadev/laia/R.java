@@ -18,20 +18,22 @@ public final class R {
         public static final int xda=0x7f020004;
     }
     public static final class id {
-        public static final int about=0x7f07000d;
-        public static final int activities=0x7f070008;
+        public static final int about=0x7f07000f;
+        public static final int activities=0x7f07000a;
         public static final int button_github=0x7f070003;
         public static final int button_paypal=0x7f070004;
-        public static final int exit=0x7f07000c;
-        public static final int howto=0x7f070007;
-        public static final int layouts=0x7f07000a;
-        public static final int manifest=0x7f070009;
+        public static final int exit=0x7f07000e;
+        public static final int howto=0x7f070009;
+        public static final int layouts=0x7f07000c;
+        public static final int manifest=0x7f07000b;
         public static final int scrollView1=0x7f070000;
         public static final int textView1=0x7f070001;
         public static final int textView2=0x7f070002;
         public static final int textView3=0x7f070005;
-        public static final int values=0x7f07000b;
-        public static final int what=0x7f070006;
+        public static final int textView4=0x7f070006;
+        public static final int textView5=0x7f070007;
+        public static final int values=0x7f07000d;
+        public static final int what=0x7f070008;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
