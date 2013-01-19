@@ -49,6 +49,16 @@ public class LaiaActivity extends Activity {
 	        this.startActivity(intent);
 	}
     
+    public void click_menu(View v) {
+    	Intent intent = new Intent(this, MenuActivity.class);
+	        this.startActivity(intent);
+	}
+    
+    public void click_debug(View v) {
+    	Intent intent = new Intent(this, DebugActivity.class);
+	        this.startActivity(intent);
+	}
+    
     @Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.

@@ -73,6 +73,22 @@
                 android:text="@string/values"
                 android:textSize="15sp" />
 
+            <Button
+                android:id="@+id/menu"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_menu"
+                android:text="@string/menu"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/debug"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_debug"
+                android:text="@string/debug"
+                android:textSize="15sp" />
+
         </LinearLayout>
     </ScrollView>
 

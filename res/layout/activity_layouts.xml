@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:gravity="center"
-                android:text="Title"
+                android:text="@string/layouts"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView

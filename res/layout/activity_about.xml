@@ -35,6 +35,15 @@
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <Button
+                android:id="@+id/button_xda"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/xda"
+                android:gravity="left|center"
+                android:onClick="click_xda"
+                android:text="@string/button_xda" />
+
+            <Button
                 android:id="@+id/button_github"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

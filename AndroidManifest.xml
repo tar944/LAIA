@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="org.sferadev.laia"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -46,7 +46,16 @@
             android:name="org.sferadev.laia.ValuesActivity"
             android:label="@string/title_activity_values" >
         </activity>
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name="org.sferadev.laia.AboutActivity" >
+        </activity>
+        <activity
+            android:name="org.sferadev.laia.MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name="org.sferadev.laia.DebugActivity"
+            android:label="@string/title_activity_debug" >
+        </activity>
     </application>
 
 </manifest>

@@ -51,6 +51,14 @@
                 android:text="@string/a_what"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/what2" />
+
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="fill_parent"
@@ -59,6 +67,13 @@
                 android:text="@string/b_what"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/what8" />
+
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="fill_parent"
@@ -66,6 +81,13 @@
                 android:layout_marginBottom="20dp"
                 android:text="@string/c_what"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/what6" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -83,6 +105,14 @@
                 android:layout_marginBottom="50dp"
                 android:text="@string/e_what"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/what7" />
 
         </LinearLayout>
     </ScrollView>

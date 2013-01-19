@@ -21,6 +21,13 @@ public class AboutActivity extends Activity {
 	    }
 	
     public void click_xda(View v) {
+        String url = "http://forum.xda-developers.com/showthread.php?t=2104750";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+	}
+	
+    public void click_github(View v) {
         String url = "https://github.com/SferaDev/LAIA";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
