@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Laia</string>
+    <string name="app_title">Learn Android in Android</string>
+    
+    <string name="what">1. What is Android?</string>
+    <string name="howto">2. How to Develop in Android?</string>
+    <string name="activities">3. How to use Activities?</string>
+    <string name="manifest">4. What does the manifest?</string>
+    <string name="layouts">5. How to make a UI with a Layout?</string>
+    <string name="values">6. How to own a universal app?</string>
+    <string name="menu">7. How to make a functional Menu?</string>
+    <string name="debug">8. How to debug my application?</string>
+    
+    <string name="about">About</string>
+    <string name="about_title">About LAIA</string>
+    <string name="about_text">LAIA or Learn Android in your Android is a reference app for learning the basics of Android Development. If you wanna contribute with any lesson please refer to any of the links.</string>
+    
+    <string name="button_xda">LAIA at XDA</string>
+    <string name="button_github">OpenSource at GitHub</string>
+    <string name="button_paypal">Support the project at PayPal</string>
+    <string name="about_donations">PayPal donations do not grant any upgrade or improve, they just support the work of the developer. App will remain free without donating.</string>
+    
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="title_activity_what">LAIA</string>
+    <string name="intro_what">Android is an Opensource OS built by Google designed for mobile and tablets. It was initially developed by Android Inc. and Google purchased it in 2005. Google releases the code under the Apache License in the AOSP Project (Android Open Source Project). Android has a large community of developers writing applications written primarily in a customized version of the Java programming language. In this guide you will learn how to start in this kind of development.</string>
+    <string name="subtitle_what">Features of Android</string>
+    <string name="a_what">The UI (User Interface) in Android is based on direct manipulation by touch or even a mouse. Also are accepted swiping, tapping, pinching to manipulate on-screen objects. You will create those objects in your layout and make the function of those objects in your Activity. Those parts are analyzed in this tutorial. The device interacts with the user by the vibration, accelerometers, gyroscopes and other sensors by your application.</string>
+    <string name="b_what">Android devices boot to the home screen with a Launcher App. Those launchers are made with app icons and widgets about the associated app. Third party apps (like yours) will be available on Google Play.</string>
+    <string name="c_what">In the top of the screen you will find a status bar, showing information about the device and its connectivity. It can be pulled down to reveal a notification screen where apps display important information or updates. Notifications are persistent until read or dismissed by the user.</string>
+    <string name="d_what">Custom Compilations of Android</string>
+    <string name="e_what">As Android is Opensource, the carriers modify the OS to their devices and also provide their updates with the base of the AOSP. But normally those updates come very late or they don’t arrive, that is commonly called fragmentation. In the battle of Fragmentation we can find CyanogenMod. It’s an aftermarket distribution of Android based on the git of the AOSP channel. It’s officially offered to a large number of devices and ported to almost any android device in a non-official way.</string>
+    
+    <string name="title_activity_howto">LAIA</string>
+    <string name="intro_howto">The development in Android it is based in the Java library modified by Google so we will use a Java IDE as Eclipse or Netbeans. Google has been focused in the Eclipse IDE during the last years building a special plugin for the developing. This guide is not based to show you how to configure the Eclipse IDE. Just search in Google how to install the ADT Plugin and download the SDK for your OS. I recommend you to install the bases of 2.3 and 4.X. Also if you want to improve any app in your mobile you can try AIDE.</string>
+    <string name="subtitle_howto">Eclipse Interface and workspaces</string>
+    <string name="a_howto">We will suppose you have already Installed Eclipse Juno (In the tutorial we will use it) with the ADT Plugin and also the latest version of the Android SDK. Inside the Eclipse IDE we will find under the menu File/New/Project some options with our project. In this second chapter we will create a test project.</string>
+    <string name="b_howto">Inside the New Android Application window we will define the name, the package, the version… of our new application. I recommend you to use from 2.2 to 4.X (Depending of the packages you have installed in your SDK). For the moment we will choose a Holo design based in 4.0+ guidelines.</string>
+    <string name="c_howto">Once we have finished the window a new project is created and we can see our Layout! In Android we will face two basic ways of developing, the graphical (using Layouts as we will see in Chapter 5 plus adding sources of code) and the coding (Using the activities as we will see in Chapter 3). But for a great app we must use the two ways as we will see in the Book.</string>
+    <string name="d_howto">Analyzing what Google Provides in a Blank App</string>
+    <string name="e_howto">We have created our first app and Google gives us a great help to start with. At first he gives us some of the code needed to run the app. So the app runs okay without doing anything else but it only show the Hello World sentence!</string>
+    <string name="f_howto">As we see in the picture we have our app structured; now we will explain some of the components of the structure. The .java files contain the Activities, this file will start our application, and any advanced function will be done inside this file (Chapter 3). The gen folder contains some files you must not delete! Inside the res folder you will get the Layout files (Chapter 5), the menu files (Chapter 7) and the Strings files (Chapter 6). Also here in the res folder we find the drawables folders where we place our images for the app. Finally we find the AndroidManisfest.xml where we locate all the info about the app to the Android OS as the permissions, the activities… (Chapter 4). So without any delay let’s go on to the real programming with the following chapters!</string>
+    
+    <string name="title_activity_activities">LAIA</string>
+    <string name="title_activity_manifest">LAIA</string>
+    <string name="title_activity_layouts">LAIA</string>
+    <string name="title_activity_values">LAIA</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_menu">LAIA</string>
+    <string name="title_activity_debug">LAIA</string>
+
+</resources>
