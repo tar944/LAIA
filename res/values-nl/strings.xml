@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Laia</string>
+    <string name="app_title">Leer Android in Android</string>
+    
+    <string name="what">1. Wat is Android?</string>
+    <string name="howto">2. Hoe ontwikkel je in Android?</string>
+    <string name="activities">3. Hoe gebruik je Activities?</string>
+    <string name="manifest">4. Wat doet het Manifest?</string>
+    <string name="layouts">5. Hoe maak je een UI met een Layout?</string>
+    <string name="values">6. Hoe maak je een universele app?</string>
+    <string name="menu">7. Hoe maak je een funtioneel menu?</string>
+    <string name="debug">8. Hoe debug ik mijn applicatie?</string>
+    
+    <string name="about">Over</string>
+    <string name="about_title">Over LAIA</string>
+    <string name="about_text">LAIA of Leer Android in Android is een referentie app om de basis van Android ontwikkeling te leren. Als je wil bijdragen met lessen ga dan naar een van deze links.</string>
+    
+    <string name="button_xda">LAIA op XDA</string>
+    <string name="button_github">OpenSource op GitHub</string>
+    <string name="button_paypal">Support het project op PayPal</string>
+    <string name="about_donations">PayPal donaties garanderen geen upgrades of verbeteringen, maar ze steunen het werk van de ontwikkelaar. De app blijft gratis zonder donatie.</string>
+    
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="title_activity_what">LAIA</string>
+    <string name="intro_what">Android is een Opensource Besturingssysteem gemaakt door Google en gedisigned for mobiele telefoons en tablets. Android werd eerst gemaakt door Android Inc. en Google kocht het over in 2005. Google geeft de code vrij onder de Apache License in het AOPS Project (Android Open Source Project). Android heeft een grote groep ontwikkelaars die voornamelijk applicaties schrijven in een aangepaste versie van de Java programmeer taal.	In deze gids leer je hoe je met deze deze vorm van ontwikkeling begint.</string>
+    <string name="subtitle_what">Eigenschappen van Android</string>
+    <string name="a_what">De gebruikersinterface (UI) in Android is gebaseerd op directe verandering door aanraking of een muis. Vegen, tikken en knijpen werken ook om objecten op het scherm te veranderen. Deze objecten creeer je in de Layout, en de functie ervan maak je in je Activity. Het apparaat communiceert met de gebruiker door trillen, accelerometers, gyroscopen en andere sensoren in je applicatie.</string>
+    <string name="b_what">Android apparaten starten op naar het home screen door middel van een Launcher app. Deze launchers worden gemaakt met app iconen en widget van de bijbehorende app. Apps van derden (zoals die van jou) zijn beschikbaar op Google Play.</string>
+    <string name="c_what">Aan de bovenkant van je scherm vind je een status balk die je informatie laat zien over het toestel en de verbindingen. De statusbar kan naar beneden getrokken worden om een notificatie scherm te tonen waar apps belangrijke informatie of updates latn zien. Notificaties blijven staan tot ze gelezen zijn of weggehaald door de gebruiker. </string>
+    <string name="d_what">Aangepaste Compilaties van Android.</string>
+    <string name="e_what">Omdat Android Opensource is, kunnen telefoonmaatschappijen het besturingssysteem veranderen en updates geven met AOSP als basis. Deze updates komen meestal laat of helemaal nooit, dit wordt ook wel fragmentatie genoemd. In de fragmentatiestrijd vinden we Cyanogenmod, een aftermarket versie van Android gebasseerd op de Git van AOSP. Cyanogenmod wordt officeel geleverd door de ontwikkelaars aan een hele hoop toestellen, en de rest krijgt onofficieele ports van andere ontwikkelaars.</string>
+    
+    <string name="title_activity_howto">LAIA</string>
+    <string name="intro_howto">Ontwikkeling in Android is gebaseerd op de aangepaste Java Library van Google, dus gebruiken we een Java IDE zoals Eclipse of Netbeans. Google heeft de afgelopen jaren op de Eclipse IDE gefocust en een speciale plugin gemaakt voor ontwikkeling van Android apps. Deze gids is niet bedoeld om je te laten zien hoe je de Eclipse IDE configureert. Zoek gewoon op Google hoe je de ADT plugin installeert en download de SDK voor jouw besturingssysteem. Ik raad je aan de 2.3 and 4.x bases te installeren. Als je een app op je toestel wilt verbeteren kan je ook AIDE proberen.</string>
+    <string name="subtitle_howto">Eclipse Interface en werkbladen</string>
+    <string name="a_howto">We nemen aan dat je Eclipse Juno hebt geinstalleerd (deze gaan we gebruiken in de tutorial) met de ADT plugin en ook de laatste versie van de Android SDK. In de Eclipse IDE vinden we onder File/New/Project een aantal opties voor ons project. In dit tweede hoofdstuk gaan we een test project maken.</string>
+    <string name="b_howto">In het New Android Application scherm geven we de naam, de package naam en de versie... Van onze nieuwe applicatie. ik raad je aan om van 2.2 tot 4.0+ te gebruiken (afhangend van de packages die je in je SDK hebt geinstalleerd). Voor nu kiezen we een Holo design gebasseerd op de 4.0+ richtlijnen.</string>
+    <string name="c_howto">Zodra we het scherm klaar hebben wordt er een nieuw project gecreeerd en kunnen we onze Layout zien! In Android hebben we 2 basis manieren van ontwikkeling, de grafische (door het gebruik van Layouts zoals we later in hoofdstuk 5 zullen zien plus het toevoegen van code) en codeing zelf (door het gebruik van Activities zoals we zullen zien in hoofdstuk 3). Maar voor een goede app moeten we allebij de manieren gebruiken zoals we zullen zien in dit boek..</string>
+    <string name="d_howto">Analyseren wat Google in een lege app aanbiedt</string>
+    <string name="e_howto">We hebben onze eerste app gemaakt en Google geeft ons geweldige hulp om mee te beginnen. Eeerst geeft hij ons een deel van de code die nodig is om de app te starten. Zodat de app goed start en zonder iets anders te doen de Hello World zin laat zien!</string>
+    <string name="f_howto">Zoals we op de afbeelding zien hebben we onze app gestructureerd. De .java bestanden bevatten de Activities, dit bestand start onzze applicatie, en geavanceerde functies worden gedaan vanuit dit bestand (Hoofdstuk 3). De gen map bevat bestanden die je niet moet deleten! In de res map vind je de Layout bestanden (Hoofdstuk 5), de Menu bestanden (Hoofdstuk 7) en de String bestanden (hoofdstuk 6). Ook vinden we in de res map de drawables map waar we afbeeldingen plaatsen voor de app. Als laatste vinden we de AndroidManifest.xml, waar we alle info over de app vinden zoals rechten en activities... (Hoofdstuk 4). Dus zonder verder wachten laten we door gaan naar het echte programmeren in de volgende hoofdstukken!</string>
+    
+    <string name="title_activity_activities">LAIA</string>
+    <string name="title_activity_manifest">LAIA</string>
+    <string name="title_activity_layouts">LAIA</string>
+    <string name="title_activity_values">LAIA</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_menu">LAIA</string>
+    <string name="title_activity_debug">LAIA</string>
+
+</resources>
