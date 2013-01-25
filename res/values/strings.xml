@@ -36,7 +36,7 @@
     <string name="title_activity_howto">LAIA</string>
     <string name="intro_howto">The development in Android it is based in the Java library modified by Google so we will use a Java IDE as Eclipse or Netbeans. Google has been focused in the Eclipse IDE during the last years building a special plugin for the developing. This guide is not based to show you how to configure the Eclipse IDE. Just search in Google how to install the ADT Plugin and download the SDK for your OS. I recommend you to install the bases of 2.3 and 4.X. Also if you want to improve any app in your mobile you can try AIDE.</string>
     <string name="subtitle_howto">Eclipse Interface and workspaces</string>
-    <string name="a_howto">We will suppose you have already Installed Eclipse Juno (In the tutorial we will use it) with the ADT Plugin and also the latest version of the Android SDK. Inside the Eclipse IDE we will find under the menu File/New/Project some options with our project. In this second chapter we will create a test project.</string>
+    <string name="a_howto">We will suppose you have already Installed Eclipse Juno (In the tutorial we will use it) with the ADT Plugin and also the latest version of the Android SDK. Inside the Eclipse IDE we will find under the menu File\new/Project some options with our project. In this second chapter we will create a test project.</string>
     <string name="b_howto">Inside the New Android Application window we will define the name, the package, the version… of our new application. I recommend you to use from 2.2 to 4.X (Depending of the packages you have installed in your SDK). For the moment we will choose a Holo design based in 4.0+ guidelines.</string>
     <string name="c_howto">Once we have finished the window a new project is created and we can see our Layout! In Android we will face two basic ways of developing, the graphical (using Layouts as we will see in Chapter 5 plus adding sources of code) and the coding (Using the activities as we will see in Chapter 3). But for a great app we must use the two ways as we will see in the Book.</string>
     <string name="d_howto">Analyzing what Google Provides in a Blank App</string>
@@ -44,6 +44,17 @@
     <string name="f_howto">As we see in the picture we have our app structured; now we will explain some of the components of the structure. The .java files contain the Activities, this file will start our application, and any advanced function will be done inside this file (Chapter 3). The gen folder contains some files you must not delete! Inside the res folder you will get the Layout files (Chapter 5), the menu files (Chapter 7) and the Strings files (Chapter 6). Also here in the res folder we find the drawables folders where we place our images for the app. Finally we find the AndroidManisfest.xml where we locate all the info about the app to the Android OS as the permissions, the activities… (Chapter 4). So without any delay let’s go on to the real programming with the following chapters!</string>
     
     <string name="title_activity_activities">LAIA</string>
+    <string name="a_activity">An activity is the source of your future app. It will start with the creation of the App inside the device and it will allow you to do advanced options inside your app. But we are not here to make theory, let\'s advance with the activities.</string>
+    <string name="b_activity">Blank Application Structure</string>
+    <string name="c_activity">In the picture we can see the package we have specified during the project creation, this package will refer to your domain.apppackage.appname. In my case I use org.sferadev.tryme, so I am stablishing as a domain org, my developer name as a apppackage and the name of the project in appname. Inside the new Activity found inside the source folder (src) we will find the .java file.</string>
+    <string name="d_activity">Basics in my Activity</string>
+    <string name="e_activity">In my projec t I have created a TryActivity.java and a activity_try.xml. We will compare the auto generated code inside our app.</string>
+    <string name="f_activity">How do we define components?</string>
+    <string name="g_activity">Android it is based in JAVA so it is based in object language. In our app we will create objects and we will define each object and his properties. We can define it inside the Activity or in the Layout. As this chapter it is for Activities we will declare any item inside our Activity. We have two methods and we will try with a Webview.</string>
+    <string name="h_activity">Method 1: Object only available inside the Class! Located after the main void.</string>
+    <string name="i_activity">As you have seen in the picture Eclipse will recommend us make the imports.</string>
+    <string name="j_activity">Method 2: Object available in all the Activity! Located before the main void.</string>
+    
     <string name="title_activity_manifest">LAIA</string>
     <string name="title_activity_layouts">LAIA</string>
     <string name="title_activity_values">LAIA</string>
