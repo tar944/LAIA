@@ -36,27 +36,27 @@ public class LaiaActivity extends Activity {
     
     public void click_manifest(View v) {
     	Intent intent = new Intent(this, ManifestActivity.class);
-	        this.startActivity(intent);
+	        //this.startActivity(intent);
 	}
     
     public void click_layouts(View v) {
     	Intent intent = new Intent(this, LayoutsActivity.class);
-	        this.startActivity(intent);
+	        //this.startActivity(intent);
 	}
     
     public void click_values(View v) {
     	Intent intent = new Intent(this, ValuesActivity.class);
-	        this.startActivity(intent);
+	        //this.startActivity(intent);
 	}
     
     public void click_menu(View v) {
     	Intent intent = new Intent(this, MenuActivity.class);
-	        this.startActivity(intent);
+	        //this.startActivity(intent);
 	}
     
     public void click_debug(View v) {
     	Intent intent = new Intent(this, DebugActivity.class);
-	        this.startActivity(intent);
+	        //this.startActivity(intent);
 	}
     
     @Override
