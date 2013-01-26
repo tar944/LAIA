@@ -1,54 +1,54 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <string name="app_name">Laia</string>
-    <string name="app_title">Lerne Android in Android</string>
-    
-    <string name="what">1. Was is Android?</string>
-    <string name="howto">2. Wie entwickle ich mit Andoid?</string>
-    <string name="activities">3. Wie nutzte ich Activities?</string>
-    <string name="manifest">4. Was macht das manifest?</string>
-    <string name="layouts">5. Wie gestallte ich ein UI mit einem Layout?</string>
-    <string name="values">6. Wie bekomme ich eine universelle App?</string>
-    <string name="menu">7. Wie entwickle ich ein funktionales Menü?</string>
-    <string name="debug">8. Wie finde ich fehler in meiner Applikation?</string>
-    
-    <string name="about">Über</string>
-    <string name="about_title">Über LAIA</string>
-    <string name="about_text">LAIA oder Lerne Android in Android ist eine Referenzapplikation um die Basis der Android-Entwicklung zu erlernen. Wenn du dich mit deinem Wissen oder einer Spende beteiligen müchtest, nutze bitte einen der Links.</string>
-    
-    <string name="button_xda">LAIA auf XDA</string>
-    <string name="button_github">OpenSource auf GitHub</string>
-    <string name="button_paypal">Unterstütze das Projekt via PayPal</string>
-    <string name="about_donations">PayPal Spenden garantieren kein Upgrade oder Entwicklung, sie unterstützen die Arbeit der Entwickler. Auch ohne Spenden wird diese Applikation kostenfrei bleiben.</string>
-    
-    <string name="hello_world">Hello world!</string>
-    
-    <string name="title_activity_what">LAIA</string>
-    <string name="intro_what">Android ist ein Opensource OS das unter der Führung Googles entwickelt wird, designt für Mobile Endgerüte. Das Projeckt wurde 2005 von Google und Android Inc. injiziert. Goolge verüffentlicht den Quellcode unt der Appache Lizenz innerhalb des AOSP (Android Open Source Project). Hinter Android steht eine groüe Entwicklergemeinde, welche Applikationen vorallem in einer angepassten Version der Sprache Java schreiben. Mit dieser Applikation wirst du lernen, wie man mit einer solchen Programmierung beginnt.</string>
-    <string name="subtitle_what">Features von Android</string>
-    <string name="a_what">Das UI (User Interface) basiert auf der direkten Manipulation durch Touch-Eingaben oder sogar einer Maus bzw. Tastatur. Verschiedene Gesten, wie swiping, tapping oder pinching erlauben die Manipulation auf dem Bildschirm dargestellter Objekte. Diese Objekte werden im Layout kreiert, und die Funktionen in der Activity implementiert. Diese Teile werden innerhalb des Tutoriums erlüutert. Das Gerüt interagiert mit dem Nutzer anhand von Vibration, Beschleunigungssensoren, Gyroskopen, und anderen Sensoren, basierend auf der verbauten Hardware.</string>
-    <string name="b_what">Android zeigt nach dem Boot-Vorgang den sogenannten Homescreen, welcher ein Teil einer Launcher App ist. Diese Launcher zeigen Widgets und Icons der installierten Apps. Third party apps (also nicht vorinstallierte Apps, wie deine) sind über den Google Play Store installierbar oder von der sd-card.</string>
-    <string name="c_what">Am oberen Ende des Bildschirms findest du die Statusbar, welche Informationen über die Netzwerkverbindungen, Akkuzustand, Uhrzeit, und vieles mehr. Diese kann nach unten gezogen werden um innerhalb des Notification Screens neue Informationen anzuzeigen, wie eingegangene Nachrichten oder Updates. Notifications werden angezeigt, bis der nutzer diese lieüt oder schlieüt.</string>
-    <string name="d_what">Angepasste Versionen von Android</string>
-    <string name="e_what">Da Android opensource ist künnen Mobilfunkbetreiber und Herrsteller ihre Gerüte mit leicht angepassten Versionen von Android vertreiben (z.B. HTC Sense), basierend auf dem AOSP. Wenn diese angepassten Versionen auf ein neues Update des AOSP angepasst werden soll dauert dies meistens sehr lang, oder findet garnicht mehr statt, was zu einer Fragmentierung führt. In diesem Kampf der Fragmentierung findet sich auch CyanogenMod. CyanogenMod ist eine opernsource Aftermarket-Distribution Androids, basierend auf AOSP. Es wird für eien groüe Menge Gerüte Angeboten, inoffizielle Ports exestieren für beinahe jedes Android Gerüt.</string>
-    
-    <string name="title_activity_howto">LAIA</string>
-    <string name="intro_howto">Die Entwicklung Rund um Android basiert auf einer von Google angepassten Version von Java, weshalb hier auf die von Java bekannten IDEs wie Eclipse oder Netbeans zurück gegriffen wird. Google hat sich hierbei auf Eclipse fokusiert, welchem inzwischen auch ein Plugin für Android Entwickler bereitgestellt wird. Diese Tutorial erklürt allerdings nicht Eclipse Einrichtung. Suche hierfür einfach auf Google, um das ADT Plugin und das OS spezifische SDK zu installieren. Ich empfehle die Basis von 2.3 und 4.x zu installieren. Wer seine App auch auf einem Android Gerüt programmieren müchte kann hierzu nach AIDE im Google Play Store suchen.</string>
-    <string name="subtitle_howto">Eclipse Interface und Workspaces</string>
-    <string name="a_howto">Wir gehen davon aus, dass Eclipse Juno, das ADT Plugin und die neueste Version des Android SDKs bereits installiert sind. Innerhalb von Elipse findest du im menü File/New/Project einige Optionen bezüglich unseres Projekts. In diesem zweiten Kapitel werden wir ein Testprojekt anfertigen.</string>
-    <string name="b_howto">Innherlab des Fensters unserer neuen Android App definieren wir den Namen, die Version, das Paket, usw. der neuen App. Ich empfehle dir 2.2 bis 4.x zu nutzen (abhüngig von der Version des installierten SDKs).Für diesen versuch nutzen wir das Holo Design nach den Designstandarts von Android 4.x.</string>
-    <string name="c_howto">Sobald wir dieses Fenster beendet haben sehenwir das neue Layout! Wir werden uns mit zwei Wegen der Entwicklung beschüftigen, dem grafischen(Layouts zu benutzen, wie wir in kapital 5 sehen werden und die Quellen des Codes hinzuzufügen) und das Eigentliche Programmieren(Die Nutzung der Activities, wie wir in Kapitel 3 sehen werden). Für eine gute Appmüssenwir Beide wege nutzen wie wir es im Buch sehen werden.</string>
-    <string name="d_howto">Analisieren was Google in einer Standartapp anbietet</string>
-    <string name="e_howto">Wir haben unsere erste App kreiert und Google gibt uns hierbei eien groüartige Starthilfe. Als erstes bekommen wir ein Stück Code welches benutzt wird um die App zum laufen zu bekommen. Also lüuft die App ohne irgendetwas zu tun auüer "Hello World" anzuzeigen!</string>
-    <string name="f_howto">Wie wir in dem Bild erkennen,haben wir unsere App strukturiert, nun erklüren wir einige der Komponenten der Strucktur. Die .java Dateien enthalten die Activities, diese Dateien starten unsere Applikation, und jegliche erweiternde Funktion wird ebenfalls hier implementiert (Kapitel 3). Der gen Ordner enthült einige Dateien, die nicht gelüscht werden dürfen! Innerhalb des res Ordners liegen die Layout Dateien (Kapitel 5), die Menü Dateien (Kapitel 7) und die String Dateien (Kapitel 6). Auch den drawable Ordner finden wir hier, worin wir die Bilder für unsere App ablegen. Schlussendlich finden wir  AndroidManisfest.xml worin wir alle Informationen der App für das Android OS definieren ,wie Berechtitungen, Activities uswü (Kapitel 4). Also jetzt ohne weitere Verzügerung, los gehts zu den Programmier-Kapiteln!</string>
-    
-    <string name="title_activity_activities">LAIA</string>
-    <string name="title_activity_manifest">LAIA</string>
-    <string name="title_activity_layouts">LAIA</string>
-    <string name="title_activity_values">LAIA</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_menu">LAIA</string>
-    <string name="title_activity_debug">LAIA</string>
-
-</resources>
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+  
+    <string name="app_name">Laia</string> 
+    <string name="app_title">Lerne Android in Android</string> 
+      
+    <string name="what">1. Was is Android?</string> 
+    <string name="howto">2. Wie entwickle ich mit Andoid?</string> 
+    <string name="activities">3. Wie nutzte ich Activities?</string> 
+    <string name="manifest">4. Was macht das manifest?</string> 
+    <string name="layouts">5. Wie gestallte ich ein UI mit einem Layout?</string> 
+    <string name="values">6. Wie bekomme ich eine universelle App?</string> 
+    <string name="menu">7. Wie entwickle ich ein funktionales Menü?</string> 
+    <string name="debug">8. Wie finde ich fehler in meiner Applikation?</string> 
+      
+    <string name="about">Über</string> 
+    <string name="about_title">Über LAIA</string> 
+    <string name="about_text">LAIA oder Lerne Android in Android ist eine Referenzapplikation um die Basis der Android-Entwicklung zu erlernen. Wenn du dich mit deinem Wissen oder einer Spende beteiligen möchtest, nutze bitte einen der Links.</string> 
+      
+    <string name="button_xda">LAIA auf XDA</string> 
+    <string name="button_github">OpenSource auf GitHub</string> 
+    <string name="button_paypal">Unterstütze das Projekt via PayPal</string> 
+    <string name="about_donations">PayPal Spenden garantieren kein Upgrade oder Entwicklung, sie unterstützen die Arbeit der Entwickler. Auch ohne Spenden wird diese Applikation kostenfrei bleiben.</string> 
+      
+    <string name="hello_world">Hello world!</string> 
+      
+    <string name="title_activity_what">LAIA</string> 
+    <string name="intro_what">Android ist ein Opensource OS das unter der Führung Googles entwickelt wird, designt für Mobile Endgeräte. Das Projekt wurde 2005 von Google und Android Inc. injiziert. Google veröffentlicht den Quellcode und der Appache Lizenz innerhalb des AOSP (Android Open Source Project). Hinter Android steht eine grosse Entwicklergemeinde, welche Applikationen vorallem in einer angepassten Version der Sprache Java schreiben. Mit dieser Applikation wirst du lernen, wie man mit einer solchen Programmierung beginnt.</string> 
+    <string name="subtitle_what">Features von Android</string> 
+    <string name="a_what">Das UI (User Interface) basiert auf der direkten Manipulation durch Touch-Eingaben oder sogar einer Maus bzw. Tastatur. Verschiedene Gesten, wie swiping, tapping oder pinching erlauben die Manipulation auf dem Bildschirm dargestellter Objekte. Diese Objekte werden im Layout kreiert, und die Funktionen in der Activity implementiert. Diese Teile werden innerhalb des Tutoriums erläutert. Das Gerät interagiert mit dem Nutzer anhand von Vibration, Beschleunigungssensoren, Gyroskopen, und anderen Sensoren, basierend auf der verbauten Hardware.</string> 
+    <string name="b_what">Android zeigt nach dem Boot-Vorgang den sogenannten Homescreen, welcher ein Teil einer Launcher App ist. Diese Launcher zeigen Widgets und Icons der installierten Apps. Third party apps (also nicht vorinstallierte Apps, wie deine) sind über den Google Play Store installierbar oder von der sd-card.</string> 
+    <string name="c_what">Am oberen Ende des Bildschirms findest du die Statusbar, welche Informationen über die Netzwerkverbindungen, Akkuzustand, Uhrzeit, und vieles mehr. Diese kann nach unten gezogen werden um innerhalb des Notification Screens neue Informationen anzuzeigen, wie eingegangene Nachrichten oder Updates. Notifications werden angezeigt, bis der nutzer diese liest oder schießt.</string> 
+    <string name="d_what">Angepasste Versionen von Android</string> 
+    <string name="e_what">Da Android opensource ist können Mobilfunkbetreiber und Herrsteller ihre Geräte mit leicht angepassten Versionen von Android vertreiben (z.B. HTC Sense), basierend auf dem AOSP. Wenn diese angepassten Versionen auf ein neues Update des AOSP angepasst werden soll dauert dies meistens sehr lang, oder findet garnicht mehr statt, was zu einer Fragmentierung führt. In diesem Kampf der Fragmentierung findet sich auch CyanogenMod. CyanogenMod ist eine opernsource Aftermarket-Distribution Androids, basierend auf AOSP. Es wird für eine große Menge Geräte Angeboten, inoffizielle Ports existieren für beinahe jedes Android Gerät.</string> 
+      
+    <string name="title_activity_howto">LAIA</string> 
+    <string name="intro_howto">Die Entwicklung rund um Android basiert auf einer von Google angepassten Version von Java, weshalb hier auf die von Java bekannten IDEs wie Eclipse oder Netbeans zurück gegriffen wird. Google hat sich hierbei auf Eclipse fokussiert, welchem inzwischen auch ein Plugin für Android Entwickler bereitgestellt wird. Dieses Tutorial erklärt allerdings nicht die Eclipse Einrichtung. Suche hierfür einfach auf Google, um das ADT Plugin und das OS spezifische SDK zu installieren. Ich empfehle die Basis von 2.3 und 4.x zu installieren. Wer seine App auch auf einem Android Gerät programmieren möchte kann hierzu nach AIDE im Google Play Store suchen.</string> 
+    <string name="subtitle_howto">Eclipse Interface und Workspaces</string> 
+    <string name="a_howto">Wir gehen davon aus, dass Eclipse Juno, das ADT Plugin und die neueste Version des Android SDKs bereits installiert sind. Innerhalb von Eclipse findest du im menü File/New/Project einige Optionen bezüglich unseres Projekts. In diesem zweiten Kapitel werden wir ein Testprojekt anfertigen.</string> 
+    <string name="b_howto">Innherlab des Fensters unserer neuen Android App definieren wir den Namen, die Version, das Paket, usw. der neuen App. Ich empfehle dir 2.2 bis 4.x zu nutzen (abhängig von der Version des installierten SDKs).Für diesen Versuch nutzen wir das Holo Design nach den Designstandards von Android 4.x.</string> 
+    <string name="c_howto">Sobald wir dieses Fenster beendet haben sehen wir das neue Layout! Wir werden uns mit zwei Wegen der Entwicklung beschäftigen, dem grafischen(Layouts zu benutzen, wie wir in Kapitel 5 sehen werden und die Quellen des Codes hinzuzufügen) und das Eigentliche Programmieren(Die Nutzung der Activities, wie wir in Kapitel 3 sehen werden). Für eine gute App müssen wir beide Wege nutzen wie wir es im Buch sehen werden.</string> 
+    <string name="d_howto">Analisieren was Google in einer Standartapp anbietet</string> 
+    <string name="e_howto">Wir haben unsere erste App kreiert und Google gibt uns hierbei eine großartige Starthilfe. Als erstes bekommen wir ein Stück Code welches benutzt wird um die App zum laufen zu bekommen. Also läuft die App ohne irgendetwas zu tun außer "Hello World" anzuzeigen!</string> 
+    <string name="f_howto">Wie wir in dem Bild erkennen,haben wir unsere App strukturiert, nun erklären wir einige der Komponenten der Struktur. Die .java Dateien enthalten die Activities, diese Dateien starten unsere Applikation, und jegliche erweiternde Funktion wird ebenfalls hier implementiert (Kapitel 3). Der gen Ordner enthält einige Dateien, die nicht gelöscht werden dürfen! Innerhalb des res Ordners liegen die Layout Dateien (Kapitel 5), die Menü Dateien (Kapitel 7) und die String Dateien (Kapitel 6). Auch den drawable Ordner finden wir hier, worin wir die Bilder für unsere App ablegen. Schlussendlich finden wir  AndroidManisfest.xml worin wir alle Informationen der App für das Android OS definieren ,wie Berechtigungen, Activities usw. (Kapitel 4). Also jetzt ohne weitere Verzögerung, los gehts zu den Programmier-Kapiteln!</string> 
+      
+    <string name="title_activity_activities">LAIA</string> 
+    <string name="title_activity_manifest">LAIA</string> 
+    <string name="title_activity_layouts">LAIA</string> 
+    <string name="title_activity_values">LAIA</string> 
+    <string name="menu_settings">Settings</string> 
+    <string name="title_activity_menu">LAIA</string> 
+    <string name="title_activity_debug">LAIA</string> 
+  
+</resources> 
