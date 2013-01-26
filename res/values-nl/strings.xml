@@ -5,12 +5,12 @@
     <string name="app_title">Leer Android in Android</string>
     
     <string name="what">1. Wat is Android?</string>
-    <string name="howto">2. Hoe ontwikkel je in Android?</string>
-    <string name="activities">3. Hoe gebruik je Activities?</string>
-    <string name="manifest">4. Wat doet het Manifest?</string>
-    <string name="layouts">5. Hoe maak je een UI met een Layout?</string>
+    <string name="howto">2. Hoe ontwikkel ik in Android?</string>
+    <string name="activities">3. Hoe gebruik ik Activities?</string>
+    <string name="manifest">4. Wat doet het manifest?</string>
+    <string name="layouts">5. Hoe maak ik een UI met een Layout?</string>
     <string name="values">6. Hoe maak je een universele app?</string>
-    <string name="menu">7. Hoe maak je een funtioneel menu?</string>
+    <string name="menu">7. Hoe maak ik een funtioneel menu?</string>
     <string name="debug">8. Hoe debug ik mijn applicatie?</string>
     
     <string name="about">Over</string>
@@ -25,7 +25,7 @@
     <string name="hello_world">Hello world!</string>
     
     <string name="title_activity_what">LAIA</string>
-    <string name="intro_what">Android is een Opensource Besturingssysteem gemaakt door Google en gedisigned for mobiele telefoons en tablets. Android werd eerst gemaakt door Android Inc. en Google kocht het over in 2005. Google geeft de code vrij onder de Apache License in het AOPS Project (Android Open Source Project). Android heeft een grote groep ontwikkelaars die voornamelijk applicaties schrijven in een aangepaste versie van de Java programmeer taal.	In deze gids leer je hoe je met deze deze vorm van ontwikkeling begint.</string>
+    <string name="intro_what">Android is een Opensource Besturingssysteem gemaakt door Google en gedisigned for mobiele telefoons en tablets. Android werd eerst gemaakt door Android Inc. en Google kocht het over in 2005. Google geeft de code vrij onder de Apache License in het AOPS Project (Android Open Source Project). Android heeft een grote groep ontwikkelaars die voornamelijk applicaties schrijven in een aangepaste versie van de Java programmeer taal.  In deze gids leer je hoe je met deze deze vorm van ontwikkeling begint.</string>
     <string name="subtitle_what">Eigenschappen van Android</string>
     <string name="a_what">De gebruikersinterface (UI) in Android is gebaseerd op directe verandering door aanraking of een muis. Vegen, tikken en knijpen werken ook om objecten op het scherm te veranderen. Deze objecten creeer je in de Layout, en de functie ervan maak je in je Activity. Het apparaat communiceert met de gebruiker door trillen, accelerometers, gyroscopen en andere sensoren in je applicatie.</string>
     <string name="b_what">Android apparaten starten op naar het home screen door middel van een Launcher app. Deze launchers worden gemaakt met app iconen en widget van de bijbehorende app. Apps van derden (zoals die van jou) zijn beschikbaar op Google Play.</string>
@@ -38,10 +38,22 @@
     <string name="subtitle_howto">Eclipse Interface en werkbladen</string>
     <string name="a_howto">We nemen aan dat je Eclipse Juno hebt geinstalleerd (deze gaan we gebruiken in de tutorial) met de ADT plugin en ook de laatste versie van de Android SDK. In de Eclipse IDE vinden we onder File/New/Project een aantal opties voor ons project. In dit tweede hoofdstuk gaan we een test project maken.</string>
     <string name="b_howto">In het New Android Application scherm geven we de naam, de package naam en de versie... Van onze nieuwe applicatie. ik raad je aan om van 2.2 tot 4.0+ te gebruiken (afhangend van de packages die je in je SDK hebt geinstalleerd). Voor nu kiezen we een Holo design gebasseerd op de 4.0+ richtlijnen.</string>
-    <string name="c_howto">Zodra we het scherm klaar hebben wordt er een nieuw project gecreeerd en kunnen we onze Layout zien! In Android hebben we 2 basis manieren van ontwikkeling, de grafische (door het gebruik van Layouts zoals we later in hoofdstuk 5 zullen zien plus het toevoegen van code) en codeing zelf (door het gebruik van Activities zoals we zullen zien in hoofdstuk 3). Maar voor een goede app moeten we allebij de manieren gebruiken zoals we zullen zien in dit boek..</string>
-    <string name="d_howto">Analyseren wat Google in een lege app aanbiedt</string>
-    <string name="e_howto">We hebben onze eerste app gemaakt en Google geeft ons geweldige hulp om mee te beginnen. Eeerst geeft hij ons een deel van de code die nodig is om de app te starten. Zodat de app goed start en zonder iets anders te doen de Hello World zin laat zien!</string>
-    <string name="f_howto">Zoals we op de afbeelding zien hebben we onze app gestructureerd. De .java bestanden bevatten de Activities, dit bestand start onzze applicatie, en geavanceerde functies worden gedaan vanuit dit bestand (Hoofdstuk 3). De gen map bevat bestanden die je niet moet deleten! In de res map vind je de Layout bestanden (Hoofdstuk 5), de Menu bestanden (Hoofdstuk 7) en de String bestanden (hoofdstuk 6). Ook vinden we in de res map de drawables map waar we afbeeldingen plaatsen voor de app. Als laatste vinden we de AndroidManifest.xml, waar we alle info over de app vinden zoals rechten en activities... (Hoofdstuk 4). Dus zonder verder wachten laten we door gaan naar het echte programmeren in de volgende hoofdstukken!</string>
+    <string name="c_howto">Once we have finished the window a new project is created and we can see our Layout! In Android we will face two basic ways of developing, the graphical (using Layouts as we will see in Chapter 5 plus adding sources of code) and the coding (Using the activities as we will see in Chapter 3). But for a great app we must use the two ways as we will see in the Book.</string>
+    <string name="d_howto">Analyzing what Google Provides in a Blank App</string>
+    <string name="e_howto">We have created our first app and Google gives us a great help to start with. At first he gives us some of the code needed to run the app. So the app runs okay without doing anything else but it only show the Hello World sentence!</string>
+    <string name="f_howto">As we see in the picture we have our app structured; now we will explain some of the components of the structure. The .java files contain the Activities, this file will start our application, and any advanced function will be done inside this file (Chapter 3). The gen folder contains some files you must not delete! Inside the res folder you will get the Layout files (Chapter 5), the menu files (Chapter 7) and the Strings files (Chapter 6). Also here in the res folder we find the drawables folders where we place our images for the app. Finally we find the AndroidManisfest.xml where we locate all the info about the app to the Android OS as the permissions, the activities… (Chapter 4). So without any delay let’s go on to the real programming with the following chapters!</string>
+
+ <string name="title_activity_activities">LAIA</string>
+    <string name="a_activity">Een Activity in de bron van jouw toekomstige app. Het begint met met het maken van app op het toestel en laat je geavanceerde dingen doen in je app. Maar we zijn hier niet voor de theorie, dus laten we beginnen met de Activities.</string>
+    <string name="b_activity">Lege Aplicatie Structuur</string>
+    <string name="c_activity">Op de afbeelding zijn we de Package dat we hebben ingesteld tijdens het maken van het project, deze Package stuurt je naar domein.apppackage.appnaam. In mijn geval gebruik is org.sferadev.tryme, dus ik stel mijn domein vast als org, mijn ontwikkelaarsnaam als apppackage en de naam van het project als appnaam. In de nieuwe Activity vinden we in de bron map (src) het .java bestand.</string>
+    <string name="d_activity">Basissen in mijn Activity</string>
+    <string name="e_activity">In mijn project heb ik een TryActivity.java en een activity_try.xml gemaakt. We vergelijken de automatisch gegenereerde code in onze app.</string>
+    <string name="f_activity">Hoe bepalen we Components?</string>
+    <string name="g_activity">Android is gebaseerd op JAVA en dat is een Object programmeertaal. In onze app gaan we Objects maken en elke Object en zijn eigenschappen instellen. We kunnen de eigenschappen instellen in de Activity of in de Layout. Omdat het in dit hoofdstuk om Activities gaat doen we dit in onze Activity. We hebben twee methodes en we gaan het proberen met een Webview.</string>
+    <string name="h_activity">Methode 1: Object alleen beschikbaar in de Class! Staat na de main void.</string>
+    <string name="i_activity">Zoals je in de afbeelding ziet zal eclipse ons aanraden om de Imports te maken.</string>
+    <string name="j_activity">Methode 2: Object beschikbaar in de hele Activity! Staat voor de main void.</string>
     
     <string name="title_activity_activities">LAIA</string>
     <string name="title_activity_manifest">LAIA</string>
