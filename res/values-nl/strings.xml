@@ -43,7 +43,7 @@
     <string name="e_howto">We have created our first app and Google gives us a great help to start with. At first he gives us some of the code needed to run the app. So the app runs okay without doing anything else but it only show the Hello World sentence!</string>
     <string name="f_howto">As we see in the picture we have our app structured; now we will explain some of the components of the structure. The .java files contain the Activities, this file will start our application, and any advanced function will be done inside this file (Chapter 3). The gen folder contains some files you must not delete! Inside the res folder you will get the Layout files (Chapter 5), the menu files (Chapter 7) and the Strings files (Chapter 6). Also here in the res folder we find the drawables folders where we place our images for the app. Finally we find the AndroidManisfest.xml where we locate all the info about the app to the Android OS as the permissions, the activities… (Chapter 4). So without any delay let’s go on to the real programming with the following chapters!</string>
 
- <string name="title_activity_activities">LAIA</string>
+ 	<string name="title_activity_activities">LAIA</string>
     <string name="a_activity">Een Activity in de bron van jouw toekomstige app. Het begint met met het maken van app op het toestel en laat je geavanceerde dingen doen in je app. Maar we zijn hier niet voor de theorie, dus laten we beginnen met de Activities.</string>
     <string name="b_activity">Lege Aplicatie Structuur</string>
     <string name="c_activity">Op de afbeelding zijn we de Package dat we hebben ingesteld tijdens het maken van het project, deze Package stuurt je naar domein.apppackage.appnaam. In mijn geval gebruik is org.sferadev.tryme, dus ik stel mijn domein vast als org, mijn ontwikkelaarsnaam als apppackage en de naam van het project als appnaam. In de nieuwe Activity vinden we in de bron map (src) het .java bestand.</string>
@@ -55,7 +55,6 @@
     <string name="i_activity">Zoals je in de afbeelding ziet zal eclipse ons aanraden om de Imports te maken.</string>
     <string name="j_activity">Methode 2: Object beschikbaar in de hele Activity! Staat voor de main void.</string>
     
-    <string name="title_activity_activities">LAIA</string>
     <string name="title_activity_manifest">LAIA</string>
     <string name="title_activity_layouts">LAIA</string>
     <string name="title_activity_values">LAIA</string>
