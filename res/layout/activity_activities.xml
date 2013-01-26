@@ -43,13 +43,11 @@
                 android:text="@string/b_activity"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="20dp"
-                android:src="@drawable/activities1" />
+            <WebView
+                android:id="@+id/activities1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -76,13 +74,11 @@
                 android:text="@string/e_activity"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="20dp"
-                android:src="@drawable/activities3" />
+            <WebView
+                android:id="@+id/activities3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
 
             <TextView
                 android:id="@+id/TextView03"
@@ -109,13 +105,11 @@
                 android:text="@string/h_activity"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="20dp"
-                android:src="@drawable/activities4" />
+            <WebView
+                android:id="@+id/activities4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -131,13 +125,11 @@
                 android:text="@string/j_activity"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <ImageView
-                android:id="@+id/imageView4"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginBottom="30dp"
-                android:src="@drawable/activities5" />
+            <WebView
+                android:id="@+id/activities5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="40dp" />
 
         </LinearLayout>
 
