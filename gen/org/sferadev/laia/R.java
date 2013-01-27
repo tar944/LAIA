@@ -110,6 +110,7 @@ public final class R {
         public static final int e_what=0x7f040019;
         public static final int f_activity=0x7f040029;
         public static final int f_howto=0x7f040022;
+        public static final int future=0x7f040034;
         public static final int g_activity=0x7f04002a;
         public static final int h_activity=0x7f04002b;
         public static final int hello_world=0x7f040011;

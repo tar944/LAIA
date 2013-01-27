@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LAIA</string>
+    <string name="app_title">Aprender Android com Android</string>
+    
+    <string name="what">1. O que é o Android?</string>
+    <string name="howto">2. Como desenvolver em Android?</string>
+    <string name="activities">3. Como usar Activities?</string>
+    <string name="manifest">4. O que faz o manifest?</string>
+    <string name="layouts">5. Como fazer uma UI com Layout?</string>
+    <string name="values">6. Como criar uma app universal?</string>
+    <string name="menu">7. Como fazer um Menu funcional?</string>
+    <string name="debug">8. Como depurar uma aplicação?</string>
+    
+    <string name="about">Sobre</string>
+    <string name="about_title">Sobre LAIA</string>
+    <string name="about_text">LAIA ou Learn Android in your Android é uma aplicação referência para aprender o básico sobre Desenvolvimento em Android. Caso queiras contribuir com uma lição segue os links.</string>
+    
+    <string name="button_xda">LAIA @ XDA</string>
+    <string name="button_github">OpenSource no GitHub</string>
+    <string name="button_paypal">Oferecer suporte por PayPal</string>
+    <string name="about_donations">As doações não garantem upgrades nem melhorias, são apenas uma forma de agradecimento ao programador. A aplicação continuará a ser gratuita mesmo que não haja doação.</string>
+    
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="title_activity_what">LAIA</string>
+    <string name="intro_what">Android é um OS OpenSource construido pela Google para telemóveis e tablets. Foi inicialmente desenvolvido pela Android Inc. e a Google comprou esta empresa em 2005. A Google libertou o código sobre a Licença Apache no projecto AOSP (Android Open Source Project). O Android tem uma larga comunidade de desenvolvedores que escrevem aplicações escritas primeiramente numa versão personalizada de linguagem Java. Neste guia vamos aprender como começar este tipo de programação.</string>
+    <string name="subtitle_what">Características do Android</string>
+    <string name="a_what">O UI (User Interface) em Android é baseado na manipulação directa por toque ou até mesmo por um rato. Também são aceites gestos como: Arrascar, Tocar duas vezes no ecrã e Beliscar para manipular os objectos no ecrã. Tu vais criar esses objectos no teu Layout e a função de cada objecto será definida na tua Activity. Estas partes são analizadas neste tutorial. Cada aparelho interage com o utilizador por vibração, acelerómetro, giroscópios e outros sensores pelas tuas aplicações.</string>
+    <string name="b_what">Os aparelhos iniciam para o ecrã inicial com uma aplicação chamada Launcher. Estes Launchers são feitos por icons de aplicações e widgets de uma aplicação a si associada. As aplicações, vulgarmente conhecidas como sendo Third party apps (como a tua) estarão disponíveis no Google Play.</string>
+    <string name="c_what">No topo deste ecrã vais encontrar a Status bar, a qual mostra informação sobre o dispositivo e a sua conectividade. Esta pode ser puxada para baixo para revelar o ecrã de notificações onde as aplicações mostram informações importantes sobre actualizações. As notificações são persistentes até que sejam lidas ou limpas pelo utilizador.</string>
+    <string name="d_what">Compilações personalizadas de Android</string>
+    <string name="e_what">Como o Android é Opensource, o provedor de serviços modifica o OS para os dispositivos e fornece os seus updates com a base AOSP. Mas normalmente estas actualizações vêm tarde ou nunca chegam sequer, e este efeito é conhecido como Fragmentação. E na batalha contra a Fragmentação podemos encontrar a Cyanogenmod. É uma distribuição de um mercado secundário de Android baseada no canal ganho pelo AOSP. É oficialmente oferecido a um largo número de dispositivos e é portado para qualquer dispositivo android mesmo que não haja suporte oficial.</string>
+    
+    <string name="title_activity_howto">LAIA</string>
+    <string name="intro_howto">O desenvolvimento em Android é baseado numa biblioteca Java modificada pela Google então nós iremos usar uma ferramenta Java como Eclipse ou Netbeans. A Google focou-se no interface de desenvolvimento (IDE) do Eclipse durante os últimos anos construindo uma plugin especial para desenvolvimento. Este guia não é direccionado em como configurar o interface de desenvolvimento do Eclipse. Procura no Google como instalar a plugin ADT e faz download do kit de desenvolvimento do software (SDK) para o teu sistema operativo. Eu recomendo instalar a base 2.3 e 4.X. Caso queiras melhorar a qualquer aplicação no teu telemóvel podes também a AIDE.</string>
+    <string name="subtitle_howto">Interface de Eclipse e espaço de trabalho</string>
+    <string name="a_howto">Vamos supor que já instalaste o Eclipse Juno (Neste tutorial vamos usá-lo) com a plugin ADT e vamos também usar a última versão do Android SDK. Dentro do interface do Eclipse nós vamos encontrar no menu File\new/Project algumas opções para o nosso projecto. Neste secundo capítulo vamos criar um projecto teste.</string>
+    <string name="b_howto">Dentro da janela Android Application nós vamos definir o nome da aplicação, o nome do pacote, a versão, etc.. da nossa aplicação. Eu recomendo que uses desde 2.2 até 4.X (Dependendo dos pacotes instalados no teu SDK). Neste momento vamos escolher o design Holo baseado nas directrizes 4.0X.</string>
+    <string name="c_howto">Quando terminarmos a configuração da janela de novo projecto, um novo projecto será criado e teremos acesso então ao nosso Layout! No Android vamos ter duas vias de desenvolvimento básicas, a gráfica (usando Layouts como veremos no Capítulo 5 adicionando códigos fonte) e a parte de código (Usando as Activitys como veremos no Capítulo 3). Mas para uma boa aplicação teremos que usar as duas vias como veremos neste Guia.</string>
+    <string name="d_howto">Analisando o que a Google oferece numa aplicação em branco</string>
+    <string name="e_howto">Já criámos a nossa primeira aplicação e a Google oferece-nos uma grande ajuda para dar os primeiros passos. Em primeiro oferece-nos o código necessário para correr a aplicação. A nossa aplicação irá correr sem transtornos e sem fazer nada a não ser mostrar apenas a frase Hello World!</string>
+    <string name="f_howto">Como podemos ver na imagem já temos a nossa aplicação estruturada; agora vamos explicar alguns dos componentes dessa mesma estruturae. Os ficheiros .java contêm essas Activities, este ficheiro irá iniciar a nossa aplicação, e qualquer função pode ser feita dentro destes ficheiros (Capítulo 3). A pasta gen contém alguns ficheiros que não deves apagar! Dentro da pasta res podes encontrar os ficheiros do Layout (Capítulo 5), os ficheiros de menu (Capítulo 7) e os ficheiros de Strings (Capítulo 6). Também temos a pasta res onde se encontram as pastas de gráficos onde iremos colocar as nossas imagens para a aplicação. Finalmente veremos o ficheiro AndroidManisfest.xml onde podemos localizar todas as informações desde a nossa aplicação até ao sistema operativo assim como as permissões da aplicação, as Activitys… (Capítulo 4). Sem qualquer atraso vamos então à verdadeira programação nos próximos capítulos!</string>
+    
+    <string name="title_activity_activities">LAIA</string>
+    <string name="a_activity">Uma Activity é o código fonte da tua aplicação. Vai começar com o começo da criação da aplicação dentro do dispositivo e vai-te deixar fazer opções avançadas dentro da tua aplicação. Mas não estamos aqui para a teoria, vamos portanto passar às Activity\'s.</string>
+    <string name="b_activity">Estrutura da aplicação em branco</string>
+    <string name="c_activity">Na imagem podemos ver o nome do pacote personalizado durante a criação do projecto, este pacote vai referir o teudomínio.nomedopacote.nomedaaplicação. No meu caso uso org.sferadev.tryme, então estou a estabelecer o meu domínio org, o meu nome de desenvolvedor como nome do pacote e o nome do projecto como nome da aplicação. Dentro da nova Activity encontrada dentro da pasta source (src) vamos encontrar o ficheiro .java.</string>
+    <string name="d_activity">Base da minha Activity</string>
+    <string name="e_activity">No meu projecto criei a TryActivity.java e a activity_try.xml. Nós vamos comparar o código gerado automaticamente dentro da nossa aplicação.</string>
+    <string name="f_activity">Como definir componentes?</string>
+    <string name="g_activity">O Android é baseado em Java então é baseado na linguagem de objectos. Na nossa aplicação nós vamos criar objectos e vamos definir cada objecto e as suas propriedades. Nós podemos defini-los dentro da Activity ou no Layout. Como este capítulo é para as Activities nós vamos declarar cada item na nossa Activity. Nós temos dois métodos e nós vamos tentar a WebView.</string>
+    <string name="h_activity">Método 1: Qualquer objectivo disponível dentro da Classe localizado depois da main void.</string>
+    <string name="i_activity">Como podes ver na imagem o Eclipse vai recomendar-nos as importações.</string>
+    <string name="j_activity">Método 2: Objectos disponíveis em toda a Activity! localizada antes da main void.</string>
+    
+    <string name="title_activity_manifest">LAIA</string>
+    <string name="title_activity_layouts">LAIA</string>
+    <string name="title_activity_values">LAIA</string>
+    <string name="menu_settings">Opções</string>
+    <string name="title_activity_menu">LAIA</string>
+    <string name="title_activity_debug">LAIA</string>
+
+</resources>

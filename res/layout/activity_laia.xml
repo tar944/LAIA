@@ -49,6 +49,16 @@
                 android:text="@string/activities"
                 android:textSize="15sp" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/future"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
             <Button
                 android:id="@+id/manifest"
                 android:layout_width="fill_parent"
@@ -85,6 +95,7 @@
                 android:id="@+id/debug"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
                 android:onClick="click_debug"
                 android:text="@string/debug"
                 android:textSize="15sp" />

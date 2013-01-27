@@ -61,5 +61,6 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_menu">LAIA</string>
     <string name="title_activity_debug">LAIA</string>
+    <string name="future">Future Updates</string>
 
 </resources>
