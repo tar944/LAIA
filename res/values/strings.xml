@@ -5,9 +5,9 @@
     <string name="app_title">Learn Android in Android</string>
     
     <string name="what">1. What is Android?</string>
-    <string name="howto">2. How to Develop in Android?</string>
+    <string name="howto">2. How to Develop for Android?</string>
     <string name="activities">3. How to use Activities?</string>
-    <string name="manifest">4. What does the manifest?</string>
+    <string name="manifest">4. What does the manifest do?</string>
     <string name="layouts">5. How to make a UI with a Layout?</string>
     <string name="values">6. How to own a universal app?</string>
     <string name="menu">7. How to make a functional Menu?</string>
@@ -15,17 +15,17 @@
     
     <string name="about">About</string>
     <string name="about_title">About LAIA</string>
-    <string name="about_text">LAIA or Learn Android in your Android is a reference app for learning the basics of Android Development. If you want to contribute with any lesson, please refer to any of the links.</string>
+    <string name="about_text">LAIA or Learn Android in your Android is a reference app to learn the basics of Android Development. If you want to contribute with any lesson, or the app in general, please check the links below.</string>
     
     <string name="button_xda">LAIA at XDA</string>
     <string name="button_github">OpenSource at GitHub</string>
-    <string name="button_paypal">Support the project at PayPal</string>
-    <string name="about_donations">PayPal donations do not grant any upgrades or improvements, they just support the work of the developer. App will remain free without donating.</string>
+    <string name="button_paypal">Support the project by PayPal</string>
+    <string name="about_donations">PayPal donations do not grant any updates or improvements, they just support the work of the developer. App will remain free without donating.</string>
     
     <string name="hello_world">Hello world!</string>
     
     <string name="title_activity_what">LAIA</string>
-    <string name="intro_what">Android is an Opensource OS built by Google designed for mobile and tablets. It was initially developed by Android Inc. and Google purchased it in 2005. Google releases the code under the Apache License in the AOSP Project (Android Open Source Project). Android has a large community of developers who are writing applications, written primarily in a customized version of the Java programming language. In this guide you will learn how to start in this kind of development.</string>
+    <string name="intro_what">Android is an Opensource OS built by Google designed for mobile phones, tablets, as well as media players. Android was initially developed by Android Inc. and Google purchased the company in 2005. Google releases the code under the Apache License in the AOSP Project (Android Open Source Project). Android has a large community of developers who are writing applications or custom ROMS, written primarily in a customized version of the Java programming language, C, and C++. In this guide you will learn how to start in this kind of development (JAVA). Learning C and C++ requires extensive learning and time. Knowing these two languages will help you to build kernels and custom ROMS. So for the sake of the App, I will assist you to start writing simple apps in Java and hopefully someday leading you to learn more and expand your developing capablities.</string>
     <string name="subtitle_what">Features of Android</string>
     <string name="a_what">The UI (User Interface) in Android is based on direct manipulation by touch or even a mouse, you can also use swiping, tapping, pinching to manipulate on-screen objects. You will create those objects in your layout and make the function of those objects in your Activity. Those parts will be analyzed in this tutorial. The device interacts with the user by the vibration, accelerometers, gyroscopes and other sensors by your application.</string>
     <string name="b_what">Android devices boot to the home screen with a Launcher App. Those launchers are made with app icons and widgets from the associated app. Third party apps (like yours) will be available on Google Play.</string>
@@ -46,7 +46,7 @@
     <string name="title_activity_activities">LAIA</string>
     <string name="a_activity">An activity is the source of your future app. It will start with the creation of the App inside the device and it will allow you to do advanced options inside your app. But we are not here to make theory, lets advance with the activities.</string>
     <string name="b_activity">Blank Application Structure</string>
-    <string name="c_activity">In the picture we can see the package that we have specified during the project creation, this package will refer to your domain.apppackage.appname. In my case I use org.sferadev.tryme, I am establishing as a domain org, my developer name as a apppackage and the name of the project in appname. Inside the new Activity, the source folder (src), we will find the .java file.</string>
+    <string name="c_activity">In the picture we can see the package that we have specified when we created the project. This package will refer to your domain.apppackage.appname. In my case I used "org.sferadev.tryme". I am establishing as a domain org, my developer name as a apppackage and the name of the project in appname. Inside the new Activity, the source folder (src), we will find the .java file.</string>
     <string name="d_activity">Basics in my Activity</string>
     <string name="e_activity">In my project I have created a TryActivity.java and a activity_try.xml. We will now compare the auto generated code inside our app.</string>
     <string name="f_activity">How do we define components?</string>
