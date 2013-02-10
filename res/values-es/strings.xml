@@ -4,9 +4,9 @@
     <string name="app_name">Laia</string>
     <string name="app_title">Aprende Android en tu Android</string>
     
-    <string name="what">1. ¿Que es Android?</string>
+    <string name="what">1. ¿Qué es Android?</string>
     <string name="howto">2. ¿Cómo desarrollar en Android?</string>
-    <string name="activities">3. ¿Cómo utilizar las Activities?</string>
+    <string name="activities">3. ¿Cómo utilizar las Actividades?</string>
     <string name="manifest">4. ¿Para que se útiliza el manifest?</string>
     <string name="layouts">5. ¿Cómo hacer una interfaz con una layout?</string>
     <string name="values">6. ¿Cómo puedes hacer una aplicación universal?</string>
