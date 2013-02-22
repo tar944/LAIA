@@ -21,21 +21,21 @@ public class AboutActivity extends Activity {
 	    }
 	
     public void click_xda(View v) {
-        String url = "http://forum.xda-developers.com/showthread.php?t=2104750";
+        String url = "http://adf.ly/JUo1E";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
 	}
 	
     public void click_github(View v) {
-        String url = "https://github.com/SferaDev/LAIA";
+        String url = "http://adf.ly/JUo5V";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
 	}
 
     public void click_paypal(View v) {
-        String url = "http://forum.xda-developers.com/donatetome.php?u=4710474";
+        String url = "http://adf.ly/3130464/donate-to-sferadev";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
