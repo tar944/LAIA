@@ -84,6 +84,7 @@ public final class R {
     public static final class string {
         public static final int a_activity=0x7f040024;
         public static final int a_howto=0x7f04001d;
+        public static final int a_manifest=0x7f04002e;
         public static final int a_what=0x7f040015;
         public static final int about=0x7f04000a;
         public static final int about_donations=0x7f040010;
@@ -94,12 +95,14 @@ public final class R {
         public static final int app_title=0x7f040001;
         public static final int b_activity=0x7f040025;
         public static final int b_howto=0x7f04001e;
+        public static final int b_manifest=0x7f04002f;
         public static final int b_what=0x7f040016;
         public static final int button_github=0x7f04000e;
         public static final int button_paypal=0x7f04000f;
         public static final int button_xda=0x7f04000d;
         public static final int c_activity=0x7f040026;
         public static final int c_howto=0x7f04001f;
+        public static final int c_manifest=0x7f040030;
         public static final int c_what=0x7f040017;
         public static final int d_activity=0x7f040027;
         public static final int d_howto=0x7f040020;
@@ -110,7 +113,7 @@ public final class R {
         public static final int e_what=0x7f040019;
         public static final int f_activity=0x7f040029;
         public static final int f_howto=0x7f040022;
-        public static final int future=0x7f040034;
+        public static final int future=0x7f040037;
         public static final int g_activity=0x7f04002a;
         public static final int h_activity=0x7f04002b;
         public static final int hello_world=0x7f040011;
@@ -122,16 +125,16 @@ public final class R {
         public static final int layouts=0x7f040006;
         public static final int manifest=0x7f040005;
         public static final int menu=0x7f040008;
-        public static final int menu_settings=0x7f040031;
+        public static final int menu_settings=0x7f040034;
         public static final int subtitle_howto=0x7f04001c;
         public static final int subtitle_what=0x7f040014;
         public static final int title_activity_activities=0x7f040023;
-        public static final int title_activity_debug=0x7f040033;
+        public static final int title_activity_debug=0x7f040036;
         public static final int title_activity_howto=0x7f04001a;
-        public static final int title_activity_layouts=0x7f04002f;
-        public static final int title_activity_manifest=0x7f04002e;
-        public static final int title_activity_menu=0x7f040032;
-        public static final int title_activity_values=0x7f040030;
+        public static final int title_activity_layouts=0x7f040032;
+        public static final int title_activity_manifest=0x7f040031;
+        public static final int title_activity_menu=0x7f040035;
+        public static final int title_activity_values=0x7f040033;
         public static final int title_activity_what=0x7f040012;
         public static final int values=0x7f040007;
         public static final int what=0x7f040002;

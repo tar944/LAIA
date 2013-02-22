@@ -55,6 +55,10 @@
     <string name="i_activity">As you have seen in the picture, Eclipse will recommend us to make the imports.</string>
     <string name="j_activity">Method 2: Object available in all the Activity! Located before the main void.</string>
     
+    <string name="a_manifest">Every Android App must have an AndroidManifest.xml file in the root directory of your app project. And it’s automatically created with the Eclipse new project option. But what it does? Why is so Important? With the AndroidManifest.xml you will give the android package of your app, the name of the activity, the theme you will use, the minimum API your app will support… Also with Eclipse the manifest will allow you to compile the .apk just with a couple of clicks.</string>
+    <string name="b_manifest">Work with the Manifest in Eclipse</string>
+    <string name="c_manifest">The Structure of the manifest in Eclipse is distributed in different tabs like: Manifest, Application, Permissions till AndroidManifest.xml. For now we will start with the AndroidManifest.xml section.</string>
+    
     <string name="title_activity_manifest">LAIA</string>
     <string name="title_activity_layouts">LAIA</string>
     <string name="title_activity_values">LAIA</string>
