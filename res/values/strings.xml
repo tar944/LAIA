@@ -67,6 +67,10 @@
     <string name="j_manifest">Finally we will close all the components we have opened like a normal xml file.</string>
     <string name="k_manifest">With these basics you should understand what does the Manifest do, but what happens if we would like to access to internet, to get the GPS location… We should use Permissions. More information of permissions will be added to this tutorial as soon as possible!</string>
     
+    <string name="a_layouts">UI is one of the major factors in the world android. If your application looks good people will download it and you have a high likelihood of succeeding. For Google that has always been a priority and has recommended their patterns, such as Holo.\n \nBut how do we define an inviting interface? \n \nWith Eclipse IDE and Google, they offer you the capability of generating code and change it at a visual interface. To access these settings we will use what is called Layout found in xml files in the folder res / layout. After opening the interface locate what you see in the following figure.</string>
+    <string name="b_layouts">The figure shows on the left a bar with different contents to our application. We have buttons, text, spinners ... You can drag the content within our application. In the center are the changes we do and how it would look on a real device.\n \nIn the next picture we watch what is on the right side, at the top we find the outline, where is located on a diagrammatic our content. In the bottom of the picture we see the properties box with lots of options for each of these elements. All these properties can be created by text too.</string>
+    <string name="c_layouts">For more reference about each of the elements, visit the website developers.android.com.</string>
+    
     <string name="title_activity_manifest">LAIA</string>
     <string name="title_activity_layouts">LAIA</string>
     <string name="title_activity_values">LAIA</string>

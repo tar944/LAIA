@@ -31,31 +31,35 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Introduction"
+                android:text="@string/a_layouts"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:gravity="center"
-                android:text="Subtitle"
-                android:textAppearance="?android:attr/textAppearanceMedium" />
+            <WebView
+                android:id="@+id/layouts1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
-                android:text="Medium Text"
+                android:text="@string/b_layouts"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
+            <WebView
+                android:id="@+id/layouts2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp" />
+
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/TextView01"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Medium Text"
+                android:layout_marginBottom="20dp"
+                android:text="@string/c_layouts"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
         </LinearLayout>

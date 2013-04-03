@@ -41,7 +41,7 @@ public class LaiaActivity extends Activity {
     
     public void click_layouts(View v) {
     	Intent intent = new Intent(this, LayoutsActivity.class);
-	        //this.startActivity(intent);
+	        this.startActivity(intent);
 	}
     
     public void click_values(View v) {
