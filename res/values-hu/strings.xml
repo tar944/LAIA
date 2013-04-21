@@ -4,75 +4,79 @@
     <string name="app_name">Laia</string>
     <string name="app_title">Learn Android in Android</string>
     
-    <string name="what">1. What is Android?</string>
-    <string name="howto">2. How to Develop for Android?</string>
-    <string name="activities">3. How to use Activities?</string>
-    <string name="manifest">4. What does the manifest do?</string>
-    <string name="layouts">5. How to make a UI with a Layout?</string>
-    <string name="values">6. How to own a universal app?</string>
-    <string name="menu">7. How to make a functional Menu?</string>
-    <string name="debug">8. How to debug my application?</string>
+    <string name="what">1. Mi az az Android?</string>
+    <string name="howto">2. Hogyan fejlesszünk Androidra?</string>
+    <string name="activities">3. Hogyan használjunk Tevékenységeket?</string>
+    <string name="manifest">4. Mit csinálnak a jegyzékek?</string>
+    <string name="layouts">5. Hogyan csináljunk felhasználó felületet?</string>
+    <string name="values">6. Hogyan csináljunk univerzális app-ot?</string>
+    <string name="menu">7. Hogyan csináljunk funkcionális menüt?</string>
+    <string name="debug">8. Hogyan hibamentesíthetjük alkalmazásunkat?</string>
     
-    <string name="about">About</string>
-    <string name="about_title">About LAIA</string>
-    <string name="about_text">LAIA or Learn Android in your Android is a reference app to learn the basics of Android Development. If you want to contribute with any lesson, or the app in general, please check the links below.</string>
+    <string name="about">Névjegy</string>
+    <string name="about_title">A LAIA-ról</string>
+    <string name="about_text">A LAIA, avagy Learn Android in your Android (Tanulj Androidot az Androidon) egy referencia alkalmazás, amivel az Androidos fejlesztés alapjait sajátíthatod el. Ha szeretnél hozzájárulni bármivel az alkalmazáshoz, kattints az alábbi linkek valamelyikére.</string>
     
-    <string name="button_xda">LAIA at XDA</string>
-    <string name="button_github">OpenSource at GitHub</string>
-    <string name="button_paypal">Support the project by PayPal</string>
-    <string name="about_donations">PayPal donations do not grant any updates or improvements, they just support the work of the developer. App will remain free without donating.</string>
+    <string name="button_xda">LAIA az XDA-n</string>
+    <string name="button_github">OpenSource a GitHub-on</string>
+    <string name="button_paypal">Támogass PayPal-lal</string>
+    <string name="about_donations">A PayPal-os támogatás nem jár semmilyen elõnnyel, csupán a fejlesztés elõsegítését szolgálja. Ez az alkalmazás ingyenes, és az is marad.</string>
     
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Helló világ!</string>
     
     <string name="title_activity_what">LAIA</string>
-    <string name="intro_what">Android is an Opensource OS built by Google designed for mobile phones, tablets, as well as media players. Android was initially developed by Android Inc. and Google purchased the company in 2005. Google releases the code under the Apache License in the AOSP Project (Android Open Source Project). Android has a large community of developers who are writing applications or custom ROMS, written primarily in a customized version of the Java programming language, C, and C++. In this guide you will learn how to start in this kind of development (JAVA). Learning C and C++ requires extensive learning and time. Knowing these two languages will help you to build kernels and custom ROMS. So for the sake of the App, I will assist you to start writing simple apps in Java and hopefully someday leading you to learn more and expand your developing capablities.</string>
-    <string name="subtitle_what">Features of Android</string>
-    <string name="a_what">The UI (User Interface) in Android is based on direct manipulation by touch or even a mouse, you can also use swiping, tapping, pinching to manipulate on-screen objects. You will create those objects in your layout and make the function of those objects in your Activity. Those parts will be analyzed in this tutorial. The device interacts with the user by the vibration, accelerometers, gyroscopes and other sensors by your application.</string>
-    <string name="b_what">Android devices boot to the home screen with a Launcher App. Those launchers are made with app icons and widgets from the associated app. Third party apps (like yours) will be available on Google Play.</string>
-    <string name="c_what">On the top of the screen you will find a status bar, showing information about the device and its connectivity. It can be pulled down to reveal a notification screen where apps display important information or updates. Notifications are persistent until read or dismissed by the user.</string>
-    <string name="d_what">Custom Compilations of Android</string>
-    <string name="e_what">As Android is an Opensource project, the carriers modify the OS to their devices and also provide their updates with the base of the AOSP. But normally those updates come very late or they don’t arrive, which is commonly called fragmentation. In the battle of Fragmentation we can find CyanogenMod. It’s an aftermarket distribution of Android based on the git of the AOSP channel. It’s officially offered to a large number of devices and ported to almost any android device in a non-official way.</string>
+    <string name="intro_what">Az Android egy nyílt forráskódú operációs rendszer a Google-tól, mobiltelefonokra, tabletekre, és médialejátszókra tervezve. Az Android eredetileg az Android Inc. által lett fejlesztve, majd a Google felvásárolta 2005-ben. A Google az Apache License szárnyai alatt adja ki az Android kódját az AOSP Projekt-ben (Android Open Source Project). Az Androidnak egy nagylétszámú közössége fejleszt alkalmazásokat, ROM-okat, elsõsorban Java programnyelven, illetve C és C++-szal. Ebben az útmutatóban megtanulhatod a Java-val való fejlesztés alapjait. A C és C++-szal való fejlesztés jóval több idõt és energiát emészt fel, ugyanis ez a két programnyelv segíti elõ a kernelek és saját ROM-ok fejlesztését készülékeinkre. Jelenlegi kereteink között a Java-val való egyszerû fejlesztésekre koncentrálunk, remélhetõleg a késõbbiekben lesz lehetõségünk a másik két programnyelvre is rávilágitani.</string>
+    <string name="subtitle_what">Az Android jellemzõi</string>
+    <string name="a_what">Az UI (User interface, azaz felhasználó felület) az Androidban a közvetlen irányíthatóságra összpontosít, akár érintéssel, akár egérrel. Csúsztathatsz, érinthetsz, görgethetsz, hogy irányítsd a képernyõn található dolgokat. Ezeket a dolgokat te programozod le, és a funkciójukat is beállíthatod a Tevékenységek alatt. Ezekkel a részekkel fogunk most foglalkozni. Az eszközök további kihasználható részei a vibrálás, a gyorsulásmérõ, a giroszkóp, valamint sok egyéb szenzor..</string>
+    <string name="b_what">Az Android eszközök a kezdõképernyõre érkeznek a rendszer elindulása után, melyet egy indító (launcher) szolgáltat. Ezek az indítók alkalmazásikonokból, valamint widgetekbõl állnak, melyek egy bizonyos alkalmazás részei. A harmadik féltõl származó alkalmazások (mint a tiéd) elérhetõek lesznek a Google Play Áruházban.</string>
+    <string name="c_what">A képernyõ tetején található az állapotsáv, mely információt szolgáltat az eszközrõl valamint annak csatlakozásáról (internet, mobilszolgáltató). Ezt egy ujjhúzással tudjuk kiterjeszteni, aholis a különbözõ alkalmazások jeleznek fontos információt illetve frissítéseket (pl.: új e-mail). Ezek az értesítések addig aktívak maradnak, amíg nem olvassuk, vagy távolítjuk el õket.</string>
+    <string name="d_what">Az Android különbözõ fajtái</string>
+    <string name="e_what">Mivel az Android egy nyílt forráskódú projekt, a szolgáltatók módosítják az általuk árusított eszközökre az AOSP alapját. Ezek a frissítések jóval késõbb érkeznek a meg a bejelentéshez képest, vagy sokszor egyáltalán nem. Ezt hívjuk fragmentációnak. A Fragmentáció háborújában található a CyanogenMod. Ez egy úgymond "utángyártott" változata az Androidnak, mindig a legfrissebb forráskódra épülve. Ez teszi lehetõvé, hogy sok hivatalosan nem támogatott készülék is megkapja a legújabb verzió számú Android-ot, amelyet az esetek nagy részében nem kaphatna.</string>
     
     <string name="title_activity_howto">LAIA</string>
-    <string name="intro_howto">The development on Android is based on the Java library that is modified by Google, so we will use a Java IDE as Eclipse or Netbeans. Google has focused in the Eclipse IDE during the last years building a special plugin for developing. This guide is not based in showing you how to configure the Eclipse IDE. Just search in Google how to install the ADT Plugin and download the SDK for your OS. I recommend you to install the bases of 2.3 and 4.X. Also, if you want to improve any app on your mobile device, you can try AIDE.</string>
-    <string name="subtitle_howto">Eclipse Interface and workspaces</string>
-    <string name="a_howto">We suppose that you have already Installed Eclipse Juno, since we will be using it with the ADT Plugin and the latest version of the Android SDK. Inside the Eclipse IDE we will find under the menu File\new/Project some options with our project. In this second chapter we will create a test project.</string>
-    <string name="b_howto">Inside the New Android Application window we will define the name, the package, the version… of our new application. I recommend that you use 2.2 to 4.X (Depending of the packages you have installed in your SDK). For the moment we will choose a Holo design based in 4.0+ guidelines.</string>
-    <string name="c_howto">Once we have finished in the window, a new project will be created and then we will be able to see our Layout! In Android we will face two basic ways of developing, the graphical (using Layouts as we will see in Chapter 5 plus adding sources of code) and the coding (Using the activities as we will see in Chapter 3). But for a great app we must use the two ways as we will see in this Book.</string>
-    <string name="d_howto">Analyzing what Google Provides in a Blank App</string>
-    <string name="e_howto">We have created our first app that Google gave us great help to start with. At first they gave us some of the code needed to run the app. So the app runs okay without doing anything else, but it only shows the Hello World sentence!</string>
-    <string name="f_howto">As we see in the picture we have our app structured; now we will explain some of the components of the structure. The .java files contain the Activities, this file will start our application, and any advanced function will be done inside this file (Chapter 3). The gen folder contains some files you must not delete! Inside the res folder you will get the Layout files (Chapter 5), the menu files (Chapter 7) and the Strings files (Chapter 6). Also here in the res folder we find the drawables folders where we place our images for the app. Finally we find the AndroidManisfest.xml where we locate all the info about the app to the Android OS as the permissions, the activities… (Chapter 4). So without further delay lets go on to the real programming with the following chapters!</string>
+    <string name="intro_howto">Az Androidra való fejlesztés a Google által módosított Java könyvtáron alapszik, két fõ fejlesztõi környezet a Netbeans vagy az Eclipse. A Google az utóbbi években inkább az Eclipse-szel való fejlesztésre koncentrált, egy speciális fejlesztõi eszközt építve. Csak keress rá a Google-n az ADT Plugin után, és töltsd le a fejlesztõi környezetet (SDK) a számítógépedre. Ezek mellett ajánlatos a 2.3-as és 4.X. verziójú Androidok alapjait is feltelepíteni. Valamint, ha szeretnéd még jobban javítani alkalmazásod minõségét, kipróbálhatod az AIDE-t.</string>
+    <string name="subtitle_howto">Eclipse felület és munkaterület</string>
+    <string name="a_howto">Úgy sejtjük már feltelepítetted az Eclipse Juno-t, mert elsõsorban erre lesz szükségünk, karöltve az ADT Plugin-nal, és az Android SDK legfrissebb verziójával. Az Eclipse-n belül a File > New > Project alatt kezdhetsz neki. Ebben a fejezetben egy teszt projektre fogunk koncentrálni.</string>
+    <string name="b_howto">A "New Android Application" ablak alatt állíthatjuk be a nevet, és az alkalmazásunk további információit. Azt javaslom, hogy 2.2-tõl 4.X-ig támogatott alkalmazást válassz ki (bár ez függ a feltelepített SDK-tól is). Most egy Holo kinézetre koncentrálunk, ami a 4.X. alapú készülékek szerves része.</string>
+    <string name="c_howto">Amint végeztünk ezzel az ablakkal, az új projektünk létrejön, és már láthatjuk is a felületét (Layout)! Az Androidban két alapvetõ fejlesztõi nézettel találkozunk, a grafikaival (felületet alkalmazva, mint az az 5. fejezetben látható lesz), valamint kódolással (tevékenységek használatával, bõvebben 3. fejezet). De ha igazán jó alkalmazást szeretnénk, érdemes mindkettõt aktívan használni.</string>
+    <string name="d_howto">Nézzük, mit ad egy üres alkalmazás!</string>
+    <string name="e_howto">Nos, létrehoztuk elsõ alkalmazásunkat, amihez a Google is nagy segítséget nyújtott. Elõször megkapjuk az alapvetõ kódokat, amikhez szükség van az app futtatásához. Így már van egy futtatható programunk, ami egyenlõre csak a Helló Világ mondatot mutatja.</string>
+    <string name="f_howto">Ahogy a képen láthatjuk, az alkalmazásunk alapstruktúrája megvan. Most nézzük ennek a részeit. A .java fájl tartalmazza a tevékenységeket, ez fogja elindítani az alkalmazásunkat, és minden nagyobb változtatást itt fogunk végrehajtani (3. fejezet). A "gen" mappa tartalmához ne nyúlj hozzá! A "res" mappában találhatóak a felület fájlok (5. fejezet), a menü fájlok (7. fejezet), és a húr (strings) fájlok (6. fejezet). A "res" mappán belül található még egy "drawables" nevezetû mappa, ahol az összes app-ban használatos képet fogunk elhelyezni. Végül, az AndroidManifest.xml, ami minden, az Android számára fontos információkat (tevékenységek, verzió, engedélyek) tartalmazza (bõvebben 4. fejezet). És hogy ne szaporítsuk a szót, lépjünk is az IGAZI programozásra a következõ fejezetekben!</string>
     
     <string name="title_activity_activities">LAIA</string>
-    <string name="a_activity">An activity is the source of your future app. It will start with the creation of the App inside the device and it will allow you to do advanced options inside your app. But we are not here to make theory, lets advance with the activities.</string>
-    <string name="b_activity">Blank Application Structure</string>
-    <string name="c_activity">In the picture we can see the package that we have specified when we created the project. This package will refer to your domain.apppackage.appname. In my case I used "org.sferadev.tryme". I am establishing as a domain org, my developer name as a apppackage and the name of the project in appname. Inside the new Activity, the source folder (src), we will find the .java file.</string>
-    <string name="d_activity">Basics in my Activity</string>
-    <string name="e_activity">In my project I have created a TryActivity.java and a activity_try.xml. We will now compare the auto generated code inside our app.</string>
-    <string name="f_activity">How do we define components?</string>
-    <string name="g_activity">Android is based on JAVA, therefore an object language. We will create objects and define each object and its properties. We can define it inside the Activity or in the Layout. As this chapter is for Activities, we will declare any item inside our Activity. We have two methods and we will try with a Webview.</string>
-    <string name="h_activity">Method 1: Object only available inside the Class! Located after the main void.</string>
-    <string name="i_activity">As you have seen in the picture, Eclipse will recommend us to make the imports.</string>
-    <string name="j_activity">Method 2: Object available in all the Activity! Located before the main void.</string>
+    <string name="a_activity">A tevékenységek (activity-k) jelentik jövõbeli alkalmazásod forrását. Itt kezdõdik az alkalmazás létrejötte, itt tudsz igazán részletes beállításokat alkalmazni. De nézzük is, mire való!</string>
+    <string name="b_activity">Üres Alkalmazás struktúrák</string>
+    <string name="c_activity">A képen láthatjuk azt a csomagot, amit beállítottunk a projekt készítésekor. Ennek neve alapjáraton domain.apppackage.appname. Jelen helyzetben "org.sferadev.tryme" nevet használtuk. A domain-nek org-ot adtam meg, a fejlesztõi névnek sferadev-et, az alkalmazásnak pedig tryme-ot. Az új tevékenységükben a forrásmappában (src) található a .java kiterjesztésû fájl.</string>
+    <string name="d_activity">Alapok a tevékenységben</string>
+    <string name="e_activity">A projektemben létrehoztam egy TryActivity.java és egy activity_try.xml fájlt. Most pedig összehasonlítjuk az automutikusan létrehozott alkalmazáskódot.</string>
+    <string name="f_activity">Hogy adjuk meg a komponenseket?</string>
+    <string name="g_activity">Az Android a JAVA-ra épül, ennélfogva egy objektumokból álló nyelv. Ilyen objektumokat hozunk mi létre, és külön beállítjuk mindegyik feladatát. Ezt a tevékenységen belül vagy a felületen is megtehetjük. Mivel ez a fejezet a tevékenységekre fókuszál, így most az elõbbit fogjuk választani. Két módon tehetjük ezt meg, és webnézetben visszük véghez.</string>
+    <string name="h_activity">1. lehetõség: Az Objektum csak a Class-en belül található meg! A fõ void után.</string>
+    <string name="i_activity">Amint a képen látható, az Eclipse azt javasolja, hogy vigyük véghez az importálásokat.</string>
+    <string name="j_activity">2. lehetõség: Az objektum minden Tevékenységben megtalálható! A fõ void után.</string>
     
-    <string name="a_manifest">Every Android App must have an AndroidManifest.xml file in the root directory of your app project. And it’s automatically created with the Eclipse new project option. But what it does? Why is so Important? With the AndroidManifest.xml you will give the android package of your app, the name of the activity, the theme you will use, the minimum API your app will support… Also with Eclipse the manifest will allow you to compile the .apk just with a couple of clicks.</string>
-    <string name="b_manifest">Work with the Manifest in Eclipse</string>
-    <string name="c_manifest">The Structure of the manifest in Eclipse is distributed in different tabs like: Manifest, Application, Permissions till AndroidManifest.xml. For now we will start with the AndroidManifest.xml section.</string>
-    <string name="d_manifest">Structure</string>
-    <string name="e_manifest">The App manifest that Eclipse provides you is made to work with your sample activity, but you can improve how your app works. So we will analyze how is the manifest made as default and understand what it means.</string>
-    <string name="f_manifest">In the picture we see the xml declaration, and we will not change it… Then we find the declaration of the manifest inside this xml, after declaring the source of this manifest, we declare the package we will use and the version code/name. The name of the package must be the folder where the activity is located. Then we find the android:versionCode and android:versionName. The versionName will be used by the user to know what version is he/she using and the versionCode will be used by Play Store to upgrade the app.</string>
-    <string name="g_manifest">In this second picture we are declaring the API or SDK version for our app. In this case we design our app for API 17, but we offer compatibility with API 8 or above.</string>
-    <string name="h_manifest">In this third picture we are declaring the application resources as the icon, the App Name or the App Theme. We are always getting the values from the res/drawable or res/values folder. </string>
-    <string name="i_manifest">In this picture we start declaring the values of the activity. Inside the Package we already declared we will establish the name of our Activity and the Name that we will give to the Android OS. Also with these intent-filters we are saying to Android that the application should appear in the App list and also we are telling to Android what Activity should it open when calling to the app.</string>
-    <string name="j_manifest">Finally we will close all the components we have opened like a normal xml file.</string>
-    <string name="k_manifest">With these basics you should understand what does the Manifest but what happens if we would like to access to internet, to get the GPS location… We should use Permissions. More information of permissions will be added to this tutorial as soon as possible!</string>
+    <string name="a_manifest">Minden Android alkalmazásnak szüksége van egy AndroidManifest.xml nevû fájlra, ami az app gyökérmappájában található. Ez automatikusan létrejön az Eclipse által, amikor új projektet hozunk létre. De mégis mire való? Miért ennyire fontos: Az AndroidManifest.xml írja körül az alkalmazásod részleteit, például a témát, a csomagot, a verziót, a nevet, és a minimális rendszerkövetelményeket... Illetve az Eclipse-ben található jegyzék (manifest) teszi lehetõvé, hogy néhány kattintással létrehozzuk a készülékeinken is futtatható .apk fájlt.</string>
+    <string name="b_manifest">Hogyan dolgozzunk a jegyzékünkkel (Manifest) az Eclipse-ben?</string>
+    <string name="c_manifest">A jegyzék felépítése az Eclipseben különbözõ füleken jelenik meg, mint például: jegyzék, alkalmazás, hozzáférési jogok, egészen az AndroidManifest.xml-ig. Most nézzük meg az AndroidManifest.xml részt.</string>
+    <string name="d_manifest">Felépítés</string>
+    <string name="e_manifest">Az alkalmazásjegyzék, amit az Eclipse szolgáltat, az egyszerû változtatások eszközölését szolgálja, de nagyban elõsegítheti alkalmazásod mûködését. Most megnézzük, hogyan jön létre ez a jegyzék, és mit is jelent.</string>
+    <string name="f_manifest">A képen az xml fájl deklarációját (részleteit) láthatjuk, amihez nem fogunk nyúlni. Ezen kívül az alkalmazásjegyzék (manifest) is megtalálható, miután deklaráljuk az alkamazásjegyzék forráskódját, deklaráljuk a csomagot, amit használni fogunk, valamint a verziószámát/nevét. A csomag nevének meg kell egyeznie a mappa nevével, amiben a tevékenység található. Ezután láthatjuk az android:versionCode és android:version:Name parancsokat. Az elõbbi tudatja a felhasználókkal az általuk használt alkalmazás verziószámát, az utóbbi pedig a Play Áruházt értesíti a frissítésrõl.</string>
+    <string name="g_manifest">A második képen deklaráljuk alkalmazásunk API vagy SDK verzióját. Esetünkben az alkalmazás API 17-re készült, de API 8, vagy afölötti verziót is támogatjuk.</string>
+    <string name="h_manifest">A harmadik képen deklaráljuk alkalmazásunk erõforrásait mint ikon, alkalmazásnév, vagy annak témája. Ezeket az értékéket a res/drawable vagy a res/values mappából nyerjük. </string>
+    <string name="i_manifest">Ezen a képen a tevékenység értékeit kezdjük deklarálni. A csomagon belül már megadtuk az csomag nevét, valamint azt az app nevet, amit az Android kijelez majd. Ezen felül ezekkel a szûrõkkel adjuk ki a parancsot az Androidnak, hogy jelezze-e ki appunkat az alkalmazáslistában, valamint milyen tevékenységek induljanak meg, ha a program elindul.</string>
+    <string name="j_manifest">Végezetül bezárjuk az összes eddig megnyitott komponenst, amit .xml fájlként nyitottunk meg.</string>
+    <string name="k_manifest">Ezekkel az alapokkal már érthetõ, miként és hogyan mûködik az alkalmazásjegyzék (manifest). De mi történik, ha alkalmazásunkkal olyan szolgáltatásokhoz szeretnénk hozzáférni, mint a GPS, vagy az internet? Ilyenkor használjuk az engedélyeket (permissions). A következõ frissítésben errõl is bõven szót fogunk ejteni.</string>
+    
+    <string name="a_layouts">Az UI (felhasználói felület) az Android egyik domináns része. Ha az alkalmazásod jól néz ki, az emberek nagyobb eséllyel töltik le, és ez sokszor hozzájárul a sikerhez. A Google-nak is mindig elsõdleges része volt az UI az Android sablonjaival, amilyen pl.: a holo.\n \nDe hogyan készíthetünk egy igazán jó felületet? \n \nAz Eclipse IDE és a Google lehetõséget ad, hogy lekódold az alkalmazásod, és késõbb a vizuális felületen is változtathass rajta. Hogy ezeket a beállításokat elérd, a res/Layout mappában található .xml kiterjesztésû fájlokhoz kell nyúlnod. Miután megnyitottad a felületet, a következõ kép fogad:</string>
+    <string name="b_layouts">A bal oldali részen láthatjuk alkalmazásunk tartalmát, vannak gombok, szövegek képek... A tartalmakat akár be is húzhatod az alkalmazásba. Mellette láthatjuk az általunk eszközölt változtatásokat, és hogy azok hogyan néznek ki egy valós eszközön.\n \nA következõ képen nézzük a jobboldali részen, ahol az alkalmazásunk struktúrája épül fel hiearchikusan. Ez alatt láthatjuk a beállítások részt, ahol minden egyes elem opciója meg van jelenítve. Ezeket persze kódolással is létre tudjuk hozni.</string>
+    <string name="c_layouts">További információkért ezekkel az elemekkel, valamint azoknak beállításaival kapcsolatban, látogasd meg a developers.android.com oldalt!</string>
     
     <string name="title_activity_manifest">LAIA</string>
     <string name="title_activity_layouts">LAIA</string>
     <string name="title_activity_values">LAIA</string>
-    <string name="menu_settings">Settings</string>
+    <string name="menu_settings">Beállítások</string>
     <string name="title_activity_menu">LAIA</string>
     <string name="title_activity_debug">LAIA</string>
-    <string name="future">Future Updates</string>
+    <string name="future">Jövõbeni frissítések</string>
 
 </resources>
