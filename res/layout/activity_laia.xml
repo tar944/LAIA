@@ -65,6 +65,14 @@
                 android:text="@string/layouts"
                 android:textSize="15sp" />
 
+            <Button
+                android:id="@+id/values"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="click_values"
+                android:text="@string/values"
+                android:textSize="15sp" />
+
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
@@ -74,14 +82,6 @@
                 android:layout_marginTop="20dp"
                 android:text="@string/future"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <Button
-                android:id="@+id/values"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:onClick="click_values"
-                android:text="@string/values"
-                android:textSize="15sp" />
 
             <Button
                 android:id="@+id/menu"

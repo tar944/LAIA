@@ -71,12 +71,20 @@
     <string name="b_layouts">The figure shows on the left a bar with different contents to our application. We have buttons, text, spinners ... You can drag the content within our application. In the center are the changes we do and how it would look on a real device.\n \nIn the next picture we watch what is on the right side, at the top we find the outline, where is located on a diagrammatic our content. In the bottom of the picture we see the properties box with lots of options for each of these elements. All these properties can be created by text too.</string>
     <string name="c_layouts">For more reference about each of the elements, visit the website developers.android.com.</string>
     
-    <string name="title_activity_manifest">LAIA</string>
-    <string name="title_activity_layouts">LAIA</string>
-    <string name="title_activity_values">LAIA</string>
+    <string name="a_universal">How to own a universal app?</string>
+    <string name="b_universal">We all want USERS, why? Because they make visits and it provides us MONEY. And Developers expect MONEY. Yes, if you get paid with ads you will get a higher chance on clicks, if you sell your app (or you plan to) the active installs will be helpful. So how can we build a universal app?</string>
+    <string name="c_universal">Be near your user!</string>
+    <string name="d_universal">First of all hear your user feedback, why? Because your users can recommend it to others! How can you improve in this point? If you own a Google Play Developer Account just check out the reviews, if you have feedback on xda or other forums read them carefully!</string>
+    <string name="e_universal">Also letting them knowing the content of your app in their mother language will benefit you as your public will grow up. English should be the common ground at first but try to provide the content to other languages: Spanish, French, Italian, German…</string>
+    <string name="f_universal">Practice makes perfect!</string>
+    <string name="g_universal">How can we make translatable content? Google provides us strings. They are stored in an easy xml format. </string>
+    <string name="h_universal">The default language should be stored under values/strings.xml and the localization languages under values-EN/strings.xml.</string>
+    <string name="i_universal">TIP: If you use apostrophes you should mark them with a backslash.</string>
+    <string name="j_universal">But how can we access those strings from our JAVA or layout xml files? Examples:</string>
+    <string name="k_universal">How can others contribute translating my content? You can use git or Launchpad!</string>
+    
+    
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_menu">LAIA</string>
-    <string name="title_activity_debug">LAIA</string>
     <string name="future">Future Updates</string>
 
 </resources>
